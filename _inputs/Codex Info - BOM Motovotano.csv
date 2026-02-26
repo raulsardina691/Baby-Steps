@@ -1,0 +1,193 @@
+Supplier,ProductSKU,ProductName,ItemType,ComponentSKU_ResourceCode,ComponentName_ResourceName,Quantity
+Motovotano LLC,BB-24BAGS,Blackberry Tea Retail 24 CT,FinishedProduct,BB-24BAGS,Blackberry Tea Retail 24 CT,1
+Motovotano LLC,BB-24BAGS,Blackberry Tea Retail 24 CT,Component,PKG-BB-24BAGS,BB-24BAGS Packaging,1
+Motovotano LLC,BB-24BAGS,Blackberry Tea Retail 24 CT,Component,FG-BB-LB,Blackberry Tea 1 Lb,0.1587
+Motovotano LLC,BBGT-24BAGS,Blueberry Green Tea Retail 24 CT,FinishedProduct,BBGT-24BAGS,Blueberry Green Tea Retail 24 CT,1
+Motovotano LLC,BBGT-24BAGS,Blueberry Green Tea Retail 24 CT,Component,PKG-BBGT-24BAGS,BBGT-24BAGS Packaging,1
+Motovotano LLC,BBGT-24BAGS,Blueberry Green Tea Retail 24 CT,Component,FG-BBGT-LB,Blueberry Green 1 Lb,0.1587
+Motovotano LLC,BBGT-LL,Blueberry Green Tea Loose Leaf 6 Ounces,FinishedProduct,BBGT-LL,Blueberry Green Tea Loose Leaf 6 Ounces,1
+Motovotano LLC,BBGT-LL,Blueberry Green Tea Loose Leaf 6 Ounces,Component,PKG-BBGT-LL,BBGT-LL Packaging,1
+Motovotano LLC,BBGT-LL,Blueberry Green Tea Loose Leaf 6 Ounces,Component,FG-BBGT-LB,Blueberry Green 1 Lb,0.375
+Motovotano LLC,BB-LL,Blackberry Tea Loose Leaf 6 Ounces,FinishedProduct,BB-LL,Blackberry Tea Loose Leaf 6 Ounces,1
+Motovotano LLC,BB-LL,Blackberry Tea Loose Leaf 6 Ounces,Component,PKG-BB-LL,BB-LL Packaging,1
+Motovotano LLC,BB-LL,Blackberry Tea Loose Leaf 6 Ounces,Component,FG-BB-LB,Blackberry Tea 1 Lb,0.375
+Motovotano LLC,BT-24BAGS,Blue Tea Retail 24 CT,FinishedProduct,BT-24BAGS,Blue Tea Retail 24 CT,1
+Motovotano LLC,BT-24BAGS,Blue Tea Retail 24 CT,Component,PKG-BT-24BAGS,BT-24BAGS Packaging,1
+Motovotano LLC,BT-24BAGS,Blue Tea Retail 24 CT,Component,FG-BT-LB,Blue Tea 1 Lb,0.1482
+Motovotano LLC,BT-LL,Blue Tea Loose Leaf 6 Ounces,FinishedProduct,BT-LL,Blue Tea Loose Leaf 6 Ounces,1
+Motovotano LLC,BT-LL,Blue Tea Loose Leaf 6 Ounces,Component,PKG-BT-LL,BT-LL Packaging,1
+Motovotano LLC,BT-LL,Blue Tea Loose Leaf 6 Ounces,Component,FG-BT-LB,Blue Tea 1 Lb,0.375
+Motovotano LLC,CA-24BAGS,Coconut Assam Retail 24 CT,FinishedProduct,CA-24BAGS,Coconut Assam Retail 24 CT,1
+Motovotano LLC,CA-24BAGS,Coconut Assam Retail 24 CT,Component,PKG-CA-24BAGS,CA-24BAGS Packaging,1
+Motovotano LLC,CA-24BAGS,Coconut Assam Retail 24 CT,Component,FG-CA-LB,Coconut Assam 1 Lb,0.1587
+Motovotano LLC,CA-LL,Coconut Assam Loose Leaf 6 Ounces,FinishedProduct,CA-LL,Coconut Assam Loose Leaf 6 Ounces,1
+Motovotano LLC,CA-LL,Coconut Assam Loose Leaf 6 Ounces,Component,PKG-CA-LL,CA-LL Packaging,1
+Motovotano LLC,CA-LL,Coconut Assam Loose Leaf 6 Ounces,Component,FG-CA-LB,Coconut Assam 1 Lb,0.375
+Motovotano LLC,CC-24BAGS,Citrus Chamomile Retail 24 CT,FinishedProduct,CC-24BAGS,Citrus Chamomile Retail 24 CT,1
+Motovotano LLC,CC-24BAGS,Citrus Chamomile Retail 24 CT,Component,PKG-CC-24BAGS,CC-24BAGS Packaging,1
+Motovotano LLC,CC-24BAGS,Citrus Chamomile Retail 24 CT,Component,FG-CC-LB,Citrus Chamomile 1 Lb,0.1058
+Motovotano LLC,CCHAI-24BAGS,Coconut Chai Retail 24 CT,FinishedProduct,CCHAI-24BAGS,Coconut Chai Retail 24 CT,1
+Motovotano LLC,CCHAI-24BAGS,Coconut Chai Retail 24 CT,Component,PKG-CCHAI-24BAGS,CCHAI-24BAGS Packaging,1
+Motovotano LLC,CCHAI-24BAGS,Coconut Chai Retail 24 CT,Component,FG-CCHAI-LB,Coconut Chai 1 Lb,0.2646
+Motovotano LLC,CCHAI-LL,Coconut Chai Loose Leaf 8 Ounces,FinishedProduct,CCHAI-LL,Coconut Chai Loose Leaf 8 Ounces,1
+Motovotano LLC,CCHAI-LL,Coconut Chai Loose Leaf 8 Ounces,Component,PKG-CCHAI-LL,CCHAI-LL Packaging,1
+Motovotano LLC,CCHAI-LL,Coconut Chai Loose Leaf 8 Ounces,Component,FG-CCHAI-LB,Coconut Chai 1 Lb,0.5
+Motovotano LLC,CC-LL,Citrus Chamomile Loose Leaf 3 Ounces,FinishedProduct,CC-LL,Citrus Chamomile Loose Leaf 3 Ounces,1
+Motovotano LLC,CC-LL,Citrus Chamomile Loose Leaf 3 Ounces,Component,PKG-CC-LL,CC-LL Packaging,1
+Motovotano LLC,CC-LL,Citrus Chamomile Loose Leaf 3 Ounces,Component,FG-CC-LB,Citrus Chamomile 1 Lb,0.1875
+Motovotano LLC,CF-24BAGS,Campfire Blend Retail 24 CT,FinishedProduct,CF-24BAGS,Campfire Blend Retail 24 CT,1
+Motovotano LLC,CF-24BAGS,Campfire Blend Retail 24 CT,Component,PKG-CF-24BAGS,CF-24BAGS Packaging,1
+Motovotano LLC,CF-24BAGS,Campfire Blend Retail 24 CT,Component,FG-CF-LB,Campfire Blend 1 Lb,0.1587
+Motovotano LLC,CF-LL,Campfire Blend Loose Leaf 6 Ounces,FinishedProduct,CF-LL,Campfire Blend Loose Leaf 6 Ounces,1
+Motovotano LLC,CF-LL,Campfire Blend Loose Leaf 6 Ounces,Component,PKG-CF-LL,CF-LL Packaging,1
+Motovotano LLC,CF-LL,Campfire Blend Loose Leaf 6 Ounces,Component,FG-CF-LB,Campfire Blend 1 Lb,0.375
+Motovotano LLC,CM-24BAGS,Chamomile Mint Retail 24 CT,FinishedProduct,CM-24BAGS,Chamomile Mint Retail 24 CT,1
+Motovotano LLC,CM-24BAGS,Chamomile Mint Retail 24 CT,Component,PKG-CM-24BAGS,CM-24BAGS Packaging,1
+Motovotano LLC,CM-24BAGS,Chamomile Mint Retail 24 CT,Component,FG-CM-LB,Chamomile Mint 1 Lb,0.1587
+Motovotano LLC,CM-LL,Chamomile Mint Loose Leaf 3 Ounces,FinishedProduct,CM-LL,Chamomile Mint Loose Leaf 3 Ounces,1
+Motovotano LLC,CM-LL,Chamomile Mint Loose Leaf 3 Ounces,Component,PKG-CM-LL,CM-LL Packaging,1
+Motovotano LLC,CM-LL,Chamomile Mint Loose Leaf 3 Ounces,Component,FG-CM-LB,Chamomile Mint 1 Lb,0.1875
+Motovotano LLC,DT-24BAGS,Detox Tea Retail 24 CT,FinishedProduct,DT-24BAGS,Detox Tea Retail 24 CT,1
+Motovotano LLC,DT-24BAGS,Detox Tea Retail 24 CT,Component,PKG-DT-24BAGS,DT-24BAGS Packaging,1
+Motovotano LLC,DT-24BAGS,Detox Tea Retail 24 CT,Component,FG-DT-LB,Detox Tea 1 Lb,0.1587
+Motovotano LLC,DT-LL,Detox Tea Loose Leaf 4 Ounces,FinishedProduct,DT-LL,Detox Tea Loose Leaf 4 Ounces,1
+Motovotano LLC,DT-LL,Detox Tea Loose Leaf 4 Ounces,Component,PKG-DT-LL,DT-LL Packaging,1
+Motovotano LLC,DT-LL,Detox Tea Loose Leaf 4 Ounces,Component,FG-DT-LB,Detox Tea 1 Lb,0.25
+Motovotano LLC,EB-24BAGS,English Breakfast Retail 24 CT,FinishedProduct,EB-24BAGS,English Breakfast Retail 24 CT,1
+Motovotano LLC,EB-24BAGS,English Breakfast Retail 24 CT,Component,PKG-EB-24BAGS,EB-24BAGS Packaging,1
+Motovotano LLC,EB-24BAGS,English Breakfast Retail 24 CT,Component,FG-EB-LB,English Breakfast 1 Lb,0.1587
+Motovotano LLC,EB-LL,English Breakfast Loose Leaf 6 Ounces,FinishedProduct,EB-LL,English Breakfast Loose Leaf 6 Ounces,1
+Motovotano LLC,EB-LL,English Breakfast Loose Leaf 6 Ounces,Component,PKG-EB-LL,EB-LL Packaging,1
+Motovotano LLC,EB-LL,English Breakfast Loose Leaf 6 Ounces,Component,FG-EB-LB,English Breakfast 1 Lb,0.375
+Motovotano LLC,EG-24BAGS,Earl Grey Retail 24 CT,FinishedProduct,EG-24BAGS,Earl Grey Retail 24 CT,1
+Motovotano LLC,EG-24BAGS,Earl Grey Retail 24 CT,Component,PKG-EG-24BAGS,EG-24BAGS Packaging,1
+Motovotano LLC,EG-24BAGS,Earl Grey Retail 24 CT,Component,FG-EG-LB,Earl Grey 1 Lb,0.1587
+Motovotano LLC,EGC-24BAGS,Earl Grey Chai Retail 24 CT,FinishedProduct,EGC-24BAGS,Earl Grey Chai Retail 24 CT,1
+Motovotano LLC,EGC-24BAGS,Earl Grey Chai Retail 24 CT,Component,PKG-EGC-24BAGS,EGC-24BAGS Packaging,1
+Motovotano LLC,EGC-24BAGS,Earl Grey Chai Retail 24 CT,Component,FG-EGC-LB,Earl Grey Chai 1 Lb,0.2646
+Motovotano LLC,EGC-LL,Earl Grey Chai Loose Leaf 8 Ounces,FinishedProduct,EGC-LL,Earl Grey Chai Loose Leaf 8 Ounces,1
+Motovotano LLC,EGC-LL,Earl Grey Chai Loose Leaf 8 Ounces,Component,PKG-EGC-LL,EGC-LL Packaging,1
+Motovotano LLC,EGC-LL,Earl Grey Chai Loose Leaf 8 Ounces,Component,FG-EGC-LB,Earl Grey Chai 1 Lb,0.5
+Motovotano LLC,EG-LL,Earl Grey Loose Leaf 6 Ounces,FinishedProduct,EG-LL,Earl Grey Loose Leaf 6 Ounces,1
+Motovotano LLC,EG-LL,Earl Grey Loose Leaf 6 Ounces,Component,PKG-EG-LL,EG-LL Packaging,1
+Motovotano LLC,EG-LL,Earl Grey Loose Leaf 6 Ounces,Component,FG-EG-LB,Earl Grey 1 Lb,0.375
+Motovotano LLC,FCSC-24BAGS,Fresh Crafted Spiced Chai Retail 24 CT,FinishedProduct,FCSC-24BAGS,Fresh Crafted Spiced Chai Retail 24 CT,1
+Motovotano LLC,FCSC-24BAGS,Fresh Crafted Spiced Chai Retail 24 CT,Component,PKG-FCSC-24BAGS,FCSC-24BAGS Packaging,1
+Motovotano LLC,FCSC-24BAGS,Fresh Crafted Spiced Chai Retail 24 CT,Component,FG-FCSC-LB,Fresh Crafted Spiced Chai 1 Lb,0.2646
+Motovotano LLC,FCSC-LL,Fresh Crafted Spiced Chai Loose Leaf 8 Ounces,FinishedProduct,FCSC-LL,Fresh Crafted Spiced Chai Loose Leaf 8 Ounces,1
+Motovotano LLC,FCSC-LL,Fresh Crafted Spiced Chai Loose Leaf 8 Ounces,Component,PKG-FCSC-LL,FCSC-LL Packaging,1
+Motovotano LLC,FCSC-LL,Fresh Crafted Spiced Chai Loose Leaf 8 Ounces,Component,FG-FCSC-LB,Fresh Crafted Spiced Chai 1 Lb,0.5
+Motovotano LLC,FG-EB-S,English Breakfast Sachet,FinishedProduct,FG-EB-S,English Breakfast Sachet,1
+Motovotano LLC,FG-EB-S,English Breakfast Sachet,Component,FG-EB-LB,English Breakfast 1 Lb,0.0066
+Motovotano LLC,FG-EG-S,Earl Grey Sachet,FinishedProduct,FG-EG-S,Earl Grey Sachet,1
+Motovotano LLC,FG-EG-S,Earl Grey Sachet,Component,FG-EG-LB,Earl Grey 1 Lb,0.0066
+Motovotano LLC,FG-OSCT-S,Orange Spice Cinnamon Sachet,FinishedProduct,FG-OSCT-S,Orange Spice Cinnamon Sachet,1
+Motovotano LLC,FG-OSCT-S,Orange Spice Cinnamon Sachet,Component,FG-OSCT-LB,Orange Spice Cinnamon 1 lb,0.0066
+Motovotano LLC,FG-PL-S,Peppermint Leaf Sachet,FinishedProduct,FG-PL-S,Peppermint Leaf Sachet,1
+Motovotano LLC,FG-PL-S,Peppermint Leaf Sachet,Component,RM-PeppermintLeaf,Peppermint Leaf,0.0033
+Motovotano LLC,FG-TG-S,Tropical Green Sachet,FinishedProduct,FG-TG-S,Tropical Green Sachet,1
+Motovotano LLC,FG-TG-S,Tropical Green Sachet,Component,FG-TG-LB,Tropical Green 1 Lb,0.0066
+Motovotano LLC,FG-WBH-S,Wild Berry Hibiscus Sachet,FinishedProduct,FG-WBH-S,Wild Berry Hibiscus Sachet,1
+Motovotano LLC,FG-WBH-S,Wild Berry Hibiscus Sachet,Component,FG-WBH-LB,Wild Berry Hibiscus 1 Lb,0.0099
+Motovotano LLC,GP-24BAGS,Ginger Peach Retail 24 CT,FinishedProduct,GP-24BAGS,Ginger Peach Retail 24 CT,1
+Motovotano LLC,GP-24BAGS,Ginger Peach Retail 24 CT,Component,PKG-GP-24BAGS,GP-24BAGS Packaging,1
+Motovotano LLC,GP-24BAGS,Ginger Peach Retail 24 CT,Component,FG-GP-LB,Ginger Peach 1 Lb,0.1587
+Motovotano LLC,GP-LL,Ginger Peach Loose Leaf 6 Ounces,FinishedProduct,GP-LL,Ginger Peach Loose Leaf 6 Ounces,1
+Motovotano LLC,GP-LL,Ginger Peach Loose Leaf 6 Ounces,Component,PKG-GP-LL,GP-LL Packaging,1
+Motovotano LLC,GP-LL,Ginger Peach Loose Leaf 6 Ounces,Component,FG-GP-LB,Ginger Peach 1 Lb,0.375
+Motovotano LLC,GT-24BAGS,Green Tea (Chun Mee) Retail 24 CT,FinishedProduct,GT-24BAGS,Green Tea (Chun Mee) Retail 24 CT,1
+Motovotano LLC,GT-24BAGS,Green Tea (Chun Mee) Retail 24 CT,Component,PKG-GT-24BAGS,GT-24BAGS Packaging,1
+Motovotano LLC,GT-24BAGS,Green Tea (Chun Mee) Retail 24 CT,Component,RM-GreenTeaChunMee,Green Tea (Chun Mee),0.1587
+Motovotano LLC,GT-LL,Green Tea (Chun Mee) Loose Leaf 6 Ounces,FinishedProduct,GT-LL,Green Tea (Chun Mee) Loose Leaf 6 Ounces,1
+Motovotano LLC,GT-LL,Green Tea (Chun Mee) Loose Leaf 6 Ounces,Component,PKG-GT-LL,GT-LL Packaging,1
+Motovotano LLC,GT-LL,Green Tea (Chun Mee) Loose Leaf 6 Ounces,Component,RM-GreenTeaChunMee,Green Tea (Chun Mee),0.375
+Motovotano LLC,JT-24BAGS,Jasmine Tea Retail 24 CT,FinishedProduct,JT-24BAGS,Jasmine Tea Retail 24 CT,1
+Motovotano LLC,JT-24BAGS,Jasmine Tea Retail 24 CT,Component,PKG-JT-24BAGS,JT-24BAGS Packaging,1
+Motovotano LLC,JT-24BAGS,Jasmine Tea Retail 24 CT,Component,FG-JT-LB,Jasmine Tea 1 lb,0.1587
+Motovotano LLC,JT-LL,Jasmine Tea Loose Leaf 6 Ounces,FinishedProduct,JT-LL,Jasmine Tea Loose Leaf 6 Ounces,1
+Motovotano LLC,JT-LL,Jasmine Tea Loose Leaf 6 Ounces,Component,PKG-JT-LL,JT-LL Packaging,1
+Motovotano LLC,JT-LL,Jasmine Tea Loose Leaf 6 Ounces,Component,FG-JT-LB,Jasmine Tea 1 lb,0.375
+Motovotano LLC,LGT-24BAGS,Lemon Ginger Tonic Retail 24 CT,FinishedProduct,LGT-24BAGS,Lemon Ginger Tonic Retail 24 CT,1
+Motovotano LLC,LGT-24BAGS,Lemon Ginger Tonic Retail 24 CT,Component,PKG-LGT-24BAGS,LGT-24BAGS Packaging,1
+Motovotano LLC,LGT-24BAGS,Lemon Ginger Tonic Retail 24 CT,Component,FG-LGT-LB,Lemon Ginger Tonic 1 lb,0.1376
+Motovotano LLC,LGT-LL,Lemon Ginger Tonic Loose Leaf 5 Ounces,FinishedProduct,LGT-LL,Lemon Ginger Tonic Loose Leaf 5 Ounces,1
+Motovotano LLC,LGT-LL,Lemon Ginger Tonic Loose Leaf 5 Ounces,Component,PKG-LGT-LL,LGT-LL Packaging,1
+Motovotano LLC,LGT-LL,Lemon Ginger Tonic Loose Leaf 5 Ounces,Component,FG-LGT-LB,Lemon Ginger Tonic 1 lb,0.3125
+Motovotano LLC,LM-24BAGS,Lemon Mint Retail 24 CT,FinishedProduct,LM-24BAGS,Lemon Mint Retail 24 CT,1
+Motovotano LLC,LM-24BAGS,Lemon Mint Retail 24 CT,Component,PKG-LM-24BAGS,LM-24BAGS Packaging,1
+Motovotano LLC,LM-24BAGS,Lemon Mint Retail 24 CT,Component,FG-LM-LB,Lemon Mint 1 Lb,0.0794
+Motovotano LLC,LM-LL,Lemon Mint Tea Loose Leaf 4 Ounces,FinishedProduct,LM-LL,Lemon Mint Tea Loose Leaf 4 Ounces,1
+Motovotano LLC,LM-LL,Lemon Mint Tea Loose Leaf 4 Ounces,Component,PKG-LM-LL,LM-LL Packaging,1
+Motovotano LLC,LM-LL,Lemon Mint Tea Loose Leaf 4 Ounces,Component,FG-LM-LB,Lemon Mint 1 Lb,0.245
+Motovotano LLC,LT-24BAGS,Lavender Tea Retail 24 CT,FinishedProduct,LT-24BAGS,Lavender Tea Retail 24 CT,1
+Motovotano LLC,LT-24BAGS,Lavender Tea Retail 24 CT,Component,PKG-LT-24BAGS,LT-24BAGS Packaging,1
+Motovotano LLC,LT-24BAGS,Lavender Tea Retail 24 CT,Component,FG-LT-LB,Lavender Tea 1 Lb,0.1587
+Motovotano LLC,LT-LL,Lavender Tea Loose Leaf 5 Ounces,FinishedProduct,LT-LL,Lavender Tea Loose Leaf 5 Ounces,1
+Motovotano LLC,LT-LL,Lavender Tea Loose Leaf 5 Ounces,Component,PKG-LT-LL,LT-LL Packaging,1
+Motovotano LLC,LT-LL,Lavender Tea Loose Leaf 5 Ounces,Component,FG-LT-LB,Lavender Tea 1 Lb,0.3125
+Motovotano LLC,MT-24BAGS,Mango Tea Retail 24 CT,FinishedProduct,MT-24BAGS,Mango Tea Retail 24 CT,1
+Motovotano LLC,MT-24BAGS,Mango Tea Retail 24 CT,Component,PKG-MT-24BAGS,MT-24BAGS Packaging,1
+Motovotano LLC,MT-24BAGS,Mango Tea Retail 24 CT,Component,FG-MT-LB,Mango Tea 1 lb,0.1587
+Motovotano LLC,MT-LL,Mango Tea Loose Leaf 6 Ounces,FinishedProduct,MT-LL,Mango Tea Loose Leaf 6 Ounces,1
+Motovotano LLC,MT-LL,Mango Tea Loose Leaf 6 Ounces,Component,PKG-MT-LL,MT-LL Packaging,1
+Motovotano LLC,MT-LL,Mango Tea Loose Leaf 6 Ounces,Component,FG-MT-LB,Mango Tea 1 lb,0.375
+Motovotano LLC,NB-24BAGS,Northwest Breakfast Retail 24 CT,FinishedProduct,NB-24BAGS,Northwest Breakfast Retail 24 CT,1
+Motovotano LLC,NB-24BAGS,Northwest Breakfast Retail 24 CT,Component,PKG-NB-24BAGS,NB-24BAGS Packaging,1
+Motovotano LLC,NB-24BAGS,Northwest Breakfast Retail 24 CT,Component,FG-NB-LB,NW Breakfast 1 lb,0.1587
+Motovotano LLC,NB-LL,Northwest Breakfast Loose Leaf 6 Ounces,FinishedProduct,NB-LL,Northwest Breakfast Loose Leaf 6 Ounces,1
+Motovotano LLC,NB-LL,Northwest Breakfast Loose Leaf 6 Ounces,Component,PKG-NB-LL,NB-LL Packaging,1
+Motovotano LLC,NB-LL,Northwest Breakfast Loose Leaf 6 Ounces,Component,FG-NB-LB,NW Breakfast 1 lb,0.375
+Motovotano LLC,OSCT-24BAGS,Orange Spice Cinnamon Retail 24 CT,FinishedProduct,OSCT-24BAGS,Orange Spice Cinnamon Retail 24 CT,1
+Motovotano LLC,OSCT-24BAGS,Orange Spice Cinnamon Retail 24 CT,Component,PKG-OSCT-24BAGS,OSCT-24BAGS Packaging,1
+Motovotano LLC,OSCT-24BAGS,Orange Spice Cinnamon Retail 24 CT,Component,FG-OSCT-LB,Orange Spice Cinnamon 1 lb,0.1587
+Motovotano LLC,OSCT-LL,Orange Spice Cinnamon Loose Leaf 6 Ounces,FinishedProduct,OSCT-LL,Orange Spice Cinnamon Loose Leaf 6 Ounces,1
+Motovotano LLC,OSCT-LL,Orange Spice Cinnamon Loose Leaf 6 Ounces,Component,PKG-OSCT-LL,OSCT-LL Packaging,1
+Motovotano LLC,OSCT-LL,Orange Spice Cinnamon Loose Leaf 6 Ounces,Component,FG-OSCT-LB,Orange Spice Cinnamon 1 lb,0.375
+Motovotano LLC,PL-24BAGS,Peppermint Leaf Retail 24 CT,FinishedProduct,PL-24BAGS,Peppermint Leaf Retail 24 CT,1
+Motovotano LLC,PL-24BAGS,Peppermint Leaf Retail 24 CT,Component,PKG-PL-24BAGS,PL-24BAGS Packaging,1
+Motovotano LLC,PL-24BAGS,Peppermint Leaf Retail 24 CT,Component,RM-PeppermintLeaf,Peppermint Leaf,0.0794
+Motovotano LLC,PL-LL,Peppermint Leaf Loose Leaf 3 Ounces,FinishedProduct,PL-LL,Peppermint Leaf Loose Leaf 3 Ounces,1
+Motovotano LLC,PL-LL,Peppermint Leaf Loose Leaf 3 Ounces,Component,PKG-PL-LL,PL-LL Packaging,1
+Motovotano LLC,PL-LL,Peppermint Leaf Loose Leaf 3 Ounces,Component,RM-PeppermintLeaf,Peppermint Leaf,0.1875
+Motovotano LLC,RC-24BAGS,Rooibos Chai Retail 24 CT,FinishedProduct,RC-24BAGS,Rooibos Chai Retail 24 CT,1
+Motovotano LLC,RC-24BAGS,Rooibos Chai Retail 24 CT,Component,PKG-RC-24BAGS,RC-24BAGS Packaging,1
+Motovotano LLC,RC-24BAGS,Rooibos Chai Retail 24 CT,Component,FG-RC-LB,Rooibos Chai 1 Lb,0.2646
+Motovotano LLC,RC-LL,Rooibos Chai Loose Leaf 8 Ounces,FinishedProduct,RC-LL,Rooibos Chai Loose Leaf 8 Ounces,1
+Motovotano LLC,RC-LL,Rooibos Chai Loose Leaf 8 Ounces,Component,PKG-RC-LL,RC-LL Packaging,1
+Motovotano LLC,RC-LL,Rooibos Chai Loose Leaf 8 Ounces,Component,FG-RC-LB,Rooibos Chai 1 Lb,0.5
+Motovotano LLC,RKT-24BAGS,Rice Krispy Tea Retail 24 CT,FinishedProduct,RKT-24BAGS,Rice Krispy Tea Retail 24 CT,1
+Motovotano LLC,RKT-24BAGS,Rice Krispy Tea Retail 24 CT,Component,PKG-RKT-24BAGS,RKT-24BAGS Packaging,1
+Motovotano LLC,RKT-24BAGS,Rice Krispy Tea Retail 24 CT,Component,FG-RKT-LB,Rice Krispy 1 Lb,0.1587
+Motovotano LLC,RKT-LL,Rice Krispy Tea Loose Leaf 6 Ounces,FinishedProduct,RKT-LL,Rice Krispy Tea Loose Leaf 6 Ounces,1
+Motovotano LLC,RKT-LL,Rice Krispy Tea Loose Leaf 6 Ounces,Component,PKG-RKT-LL,RKT-LL Packaging,1
+Motovotano LLC,RKT-LL,Rice Krispy Tea Loose Leaf 6 Ounces,Component,FG-RKT-LB,Rice Krispy 1 Lb,0.375
+Motovotano LLC,SC-24BAGS,Sleepy Chai Retail 24 CT,FinishedProduct,SC-24BAGS,Sleepy Chai Retail 24 CT,1
+Motovotano LLC,SC-24BAGS,Sleepy Chai Retail 24 CT,Component,PKG-SC-24BAGS,SC-24BAGS Packaging,1
+Motovotano LLC,SC-24BAGS,Sleepy Chai Retail 24 CT,Component,FG-SC-LB,Sleepy Chai 1 Lb,0.2646
+Motovotano LLC,SC-LL,Sleepy Chai Loose Leaf 8 Ounces,FinishedProduct,SC-LL,Sleepy Chai Loose Leaf 8 Ounces,1
+Motovotano LLC,SC-LL,Sleepy Chai Loose Leaf 8 Ounces,Component,PKG-SC-LL,SC-LL Packaging,1
+Motovotano LLC,SC-LL,Sleepy Chai Loose Leaf 8 Ounces,Component,FG-SC-LB,Sleepy Chai 1 Lb,0.5
+Motovotano LLC,SGT-24BAGS,Strawberry Green Tea Retail 24 CT,FinishedProduct,SGT-24BAGS,Strawberry Green Tea Retail 24 CT,1
+Motovotano LLC,SGT-24BAGS,Strawberry Green Tea Retail 24 CT,Component,PKG-SGT-24BAGS,SGT-24BAGS Packaging,1
+Motovotano LLC,SGT-24BAGS,Strawberry Green Tea Retail 24 CT,Component,FG-SGT-LB,Strawberry Green 1 Lb,0.1587
+Motovotano LLC,SGT-LL,Strawberry Green Tea Loose Leaf 6 Ounces,FinishedProduct,SGT-LL,Strawberry Green Tea Loose Leaf 6 Ounces,1
+Motovotano LLC,SGT-LL,Strawberry Green Tea Loose Leaf 6 Ounces,Component,PKG-SGT-LL,SGT-LL Packaging,1
+Motovotano LLC,SGT-LL,Strawberry Green Tea Loose Leaf 6 Ounces,Component,FG-SGT-LB,Strawberry Green 1 Lb,0.375
+Motovotano LLC,ST-24BAGS,Sore Throat Retail 24 CT,FinishedProduct,ST-24BAGS,Sore Throat Retail 24 CT,1
+Motovotano LLC,ST-24BAGS,Sore Throat Retail 24 CT,Component,PKG-ST-24BAGS,ST-24BAGS Packaging,1
+Motovotano LLC,ST-24BAGS,Sore Throat Retail 24 CT,Component,FG-ST-LB,Sore Throat 1 Lb,0.1587
+Motovotano LLC,ST-LL,Sore Throat Loose Leaf 4 Ounces,FinishedProduct,ST-LL,Sore Throat Loose Leaf 4 Ounces,1
+Motovotano LLC,ST-LL,Sore Throat Loose Leaf 4 Ounces,Component,PKG-ST-LL,ST-LL Packaging,1
+Motovotano LLC,ST-LL,Sore Throat Loose Leaf 4 Ounces,Component,FG-ST-LB,Sore Throat 1 Lb,0.25
+Motovotano LLC,TG-24BAGS,Tropical Green Tea Retail 24 CT,FinishedProduct,TG-24BAGS,Tropical Green Tea Retail 24 CT,1
+Motovotano LLC,TG-24BAGS,Tropical Green Tea Retail 24 CT,Component,PKG-TG-24BAGS,TG-24BAGS Packaging,1
+Motovotano LLC,TG-24BAGS,Tropical Green Tea Retail 24 CT,Component,FG-TG-LB,Tropical Green 1 Lb,0.1587
+Motovotano LLC,TG-LL,Tropical Green Tea Loose Leaf 6 Ounces,FinishedProduct,TG-LL,Tropical Green Tea Loose Leaf 6 Ounces,1
+Motovotano LLC,TG-LL,Tropical Green Tea Loose Leaf 6 Ounces,Component,PKG-TG-LL,TG-LL Packaging,1
+Motovotano LLC,TG-LL,Tropical Green Tea Loose Leaf 6 Ounces,Component,FG-TG-LB,Tropical Green 1 Lb,0.375
+Motovotano LLC,WBH-24BAGS,Wild Berry Hibiscus Retail 24 CT,FinishedProduct,WBH-24BAGS,Wild Berry Hibiscus Retail 24 CT,1
+Motovotano LLC,WBH-24BAGS,Wild Berry Hibiscus Retail 24 CT,Component,PKG-WBH-24BAGS,WBH-24BAGS Packaging,1
+Motovotano LLC,WBH-24BAGS,Wild Berry Hibiscus Retail 24 CT,Component,FG-WBH-LB,Wild Berry Hibiscus 1 Lb,0.2381
+Motovotano LLC,WBH-LL,Wild Berry Hibiscus Loose Leaf 6 Ounces,FinishedProduct,WBH-LL,Wild Berry Hibiscus Loose Leaf 6 Ounces,1
+Motovotano LLC,WBH-LL,Wild Berry Hibiscus Loose Leaf 6 Ounces,Component,PKG-WBH-LL,WBH-LL Packaging,1
+Motovotano LLC,WBH-LL,Wild Berry Hibiscus Loose Leaf 6 Ounces,Component,FG-WBH-LB,Wild Berry Hibiscus 1 Lb,0.375

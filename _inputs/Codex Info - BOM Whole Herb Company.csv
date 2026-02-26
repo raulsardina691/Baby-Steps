@@ -1,0 +1,84 @@
+Supplier,ProductSKU,ProductName,ItemType,ComponentSKU_ResourceCode,ComponentName_ResourceName,Quantity
+Whole Herb Company,FG-BBGT-LB,Blueberry Green 1 Lb,Component,RM-GreenTeaChunMee,Green Tea (Chun Mee),0.9384
+Whole Herb Company,FG-BBGT-LB,Blueberry Green 1 Lb,Component,RM-F-Blueberry,Blueberry Flavoring,0.0416
+Whole Herb Company,FG-BBGT-LB,Blueberry Green 1 Lb,FinishedProduct,FG-BBGT-LB,Blueberry Green 1 Lb,1.0000
+Whole Herb Company,FG-BB-LB,Blackberry Tea 1 Lb,Component,RM-BlackTea,Black Tea,0.9600
+Whole Herb Company,FG-BB-LB,Blackberry Tea 1 Lb,Component,RM-F-Blackberry,Blackberry Flavoring,0.0208
+Whole Herb Company,FG-BB-LB,Blackberry Tea 1 Lb,FinishedProduct,FG-BB-LB,Blackberry Tea 1 Lb,1.0000
+Whole Herb Company,FG-BT-LB,Blue Tea 1 Lb,Component,RM-BlackTea,Black Tea,0.6000
+Whole Herb Company,FG-BT-LB,Blue Tea 1 Lb,Component,RM-F-Passionfruit,Passionfruit Flavoring,0.0150
+Whole Herb Company,FG-BT-LB,Blue Tea 1 Lb,Component,RM-F-Lemom,Lemon Flavoring,0.0012
+Whole Herb Company,FG-BT-LB,Blue Tea 1 Lb,FinishedProduct,FG-BT-LB,Blue Tea 1 Lb,1.0000
+Whole Herb Company,FG-CA-LB,Coconut Assam 1 Lb,Component,RM-AssamBlackTea,Assam Black Tea,0.8936
+Whole Herb Company,FG-CA-LB,Coconut Assam 1 Lb,Component,RM-F-Coconut,Coconut Flavoring,0.0558
+Whole Herb Company,FG-CA-LB,Coconut Assam 1 Lb,FinishedProduct,FG-CA-LB,Coconut Assam 1 Lb,1.0000
+Whole Herb Company,FG-CCHAI-LB,Coconut Chai 1 Lb,Component,RM-BlackTea,Black Tea,0.2332
+Whole Herb Company,FG-CCHAI-LB,Coconut Chai 1 Lb,Component,RM-F-Cardamom,Cardamom Flavoring,0.0073
+Whole Herb Company,FG-CCHAI-LB,Coconut Chai 1 Lb,Component,RM-F-Coconut,Coconut Flavoring,0.0294
+Whole Herb Company,FG-CCHAI-LB,Coconut Chai 1 Lb,FinishedProduct,FG-CCHAI-LB,Coconut Chai 1 Lb,1.0000
+Whole Herb Company,FG-CC-LB,Citrus Chamomile 1 Lb,Component,RM-ChamomileFlower,Chamomile Flower,0.3800
+Whole Herb Company,FG-CC-LB,Citrus Chamomile 1 Lb,FinishedProduct,FG-CC-LB,Citrus Chamomile 1 Lb,1.0000
+Whole Herb Company,FG-CF-LB,Campfire Blend 1 Lb,Component,RM-LapsangSouchongTea,Lapsang Souchong Tea,0.9584
+Whole Herb Company,FG-CF-LB,Campfire Blend 1 Lb,Component,RM-F-CedarTip,Cedar Tip Flavoring,0.0416
+Whole Herb Company,FG-CF-LB,Campfire Blend 1 Lb,FinishedProduct,FG-CF-LB,Campfire Blend 1 Lb,1.0000
+Whole Herb Company,FG-CM-LB,Chamomile Mint 1 Lb,Component,RM-ChamomileFlower,Chamomile Flower,0.4200
+Whole Herb Company,FG-CM-LB,Chamomile Mint 1 Lb,FinishedProduct,FG-CM-LB,Chamomile Mint 1 Lb,1.0000
+Whole Herb Company,FG-DT-LB,Detox Tea 1 Lb,FinishedProduct,FG-DT-LB,Detox Tea 1 Lb,1.0000
+Whole Herb Company,FG-EB-LB,English Breakfast 1 Lb,Component,RM-BlackTea,Black Tea,0.2500
+Whole Herb Company,FG-EB-LB,English Breakfast 1 Lb,Component,RM-KeemunCongouTea,Keemun Congou Tea,0.2500
+Whole Herb Company,FG-EB-LB,English Breakfast 1 Lb,Component,RM-CeylonBlackTea,Ceylon Black Tea,0.2500
+Whole Herb Company,FG-EB-LB,English Breakfast 1 Lb,Component,RM-AssamBlackTea,Assam Black Tea,0.2500
+Whole Herb Company,FG-EB-LB,English Breakfast 1 Lb,FinishedProduct,FG-EB-LB,English Breakfast 1 Lb,1.0000
+Whole Herb Company,FG-EGC-LB,Earl Grey Chai 1 Lb,Component,RM-BlackTea,Black Tea,0.2490
+Whole Herb Company,FG-EGC-LB,Earl Grey Chai 1 Lb,Component,RM-F-Cardamom,Cardamom Flavoring,0.0073
+Whole Herb Company,FG-EGC-LB,Earl Grey Chai 1 Lb,Component,RM-F-Bergamot,Bergamot Flavoring,0.0155
+Whole Herb Company,FG-EGC-LB,Earl Grey Chai 1 Lb,FinishedProduct,FG-EGC-LB,Earl Grey Chai 1 Lb,1.0000
+Whole Herb Company,FG-EG-LB,Earl Grey 1 Lb,Component,RM-BlackTea,Black Tea,0.9300
+Whole Herb Company,FG-EG-LB,Earl Grey 1 Lb,Component,RM-F-Bergamot,Bergamot Flavoring,0.0580
+Whole Herb Company,FG-EG-LB,Earl Grey 1 Lb,FinishedProduct,FG-EG-LB,Earl Grey 1 Lb,1.0000
+Whole Herb Company,FG-FCSC-LB,Fresh Crafted Spiced Chai 1 Lb,Component,RM-BlackTea,Black Tea,0.2402
+Whole Herb Company,FG-FCSC-LB,Fresh Crafted Spiced Chai 1 Lb,Component,RM-F-Cardamom,Cardamom Flavoring,0.0076
+Whole Herb Company,FG-FCSC-LB,Fresh Crafted Spiced Chai 1 Lb,FinishedProduct,FG-FCSC-LB,Fresh Crafted Spiced Chai 1 Lb,1.0000
+Whole Herb Company,FG-GP-LB,Ginger Peach 1 Lb,Component,RM-BlackTea,Black Tea,0.7300
+Whole Herb Company,FG-GP-LB,Ginger Peach 1 Lb,Component,RM-F-Peach,Peach Flavoring,0.0156
+Whole Herb Company,FG-GP-LB,Ginger Peach 1 Lb,FinishedProduct,FG-GP-LB,Ginger Peach 1 Lb,1.0000
+Whole Herb Company,FG-JT-LB,Jasmine Tea 1 lb,Component,RM-GreenTeaChunMee,Green Tea (Chun Mee),0.9600
+Whole Herb Company,FG-JT-LB,Jasmine Tea 1 lb,Component,RM-F-Jasmine,Jasmine Flavoring,0.0208
+Whole Herb Company,FG-JT-LB,Jasmine Tea 1 lb,FinishedProduct,FG-JT-LB,Jasmine Tea 1 lb,1.0000
+Whole Herb Company,FG-LGT-LB,Lemon Ginger Tonic 1 lb,FinishedProduct,FG-LGT-LB,Lemon Ginger Tonic 1 lb,1.0000
+Whole Herb Company,FG-LM-LB,Lemon Mint 1 Lb,Component,RM-F-Lemom,Lemon Flavoring,0.0250
+Whole Herb Company,FG-LM-LB,Lemon Mint 1 Lb,FinishedProduct,FG-LM-LB,Lemon Mint 1 Lb,1.0000
+Whole Herb Company,FG-LT-LB,Lavender Tea 1 Lb,Component,RM-CeylonBlackTea,Ceylon Black Tea,0.7300
+Whole Herb Company,FG-LT-LB,Lavender Tea 1 Lb,FinishedProduct,FG-LT-LB,Lavender Tea 1 Lb,1.0000
+Whole Herb Company,FG-MT-LB,Mango Tea 1 lb,Component,RM-BlackTea,Black Tea,0.9700
+Whole Herb Company,FG-MT-LB,Mango Tea 1 lb,Component,RM-F-Mango,Mango Flavoring,0.0208
+Whole Herb Company,FG-MT-LB,Mango Tea 1 lb,FinishedProduct,FG-MT-LB,Mango Tea 1 lb,1.0000
+Whole Herb Company,FG-NB-LB,NW Breakfast 1 lb,Component,RM-AssamBlackTea,Assam Black Tea,0.4800
+Whole Herb Company,FG-NB-LB,NW Breakfast 1 lb,Component,RM-BlackTea,Black Tea,0.2400
+Whole Herb Company,FG-NB-LB,NW Breakfast 1 lb,Component,RM-CeylonBlackTea,Ceylon Black Tea,0.2400
+Whole Herb Company,FG-NB-LB,NW Breakfast 1 lb,Component,RM-F-CedarTip,Cedar Tip Flavoring,0.0400
+Whole Herb Company,FG-NB-LB,NW Breakfast 1 lb,FinishedProduct,FG-NB-LB,NW Breakfast 1 lb,1.0000
+Whole Herb Company,FG-OSCT-LB,Orange Spice Cinnamon 1 lb,Component,RM-BlackTea,Black Tea,0.8300
+Whole Herb Company,FG-OSCT-LB,Orange Spice Cinnamon 1 lb,Component,RM-F-OrangeCinnamon,Orange Cinnamon Flavoring,0.0602
+Whole Herb Company,FG-OSCT-LB,Orange Spice Cinnamon 1 lb,FinishedProduct,FG-OSCT-LB,Orange Spice Cinnamon 1 lb,1.0000
+Whole Herb Company,FG-RC-LB,Rooibos Chai 1 Lb,Component,RM-RooibosTea,Rooibos Tea,0.2402
+Whole Herb Company,FG-RC-LB,Rooibos Chai 1 Lb,Component,RM-F-Cardamom,Cardamom Flavoring,0.0076
+Whole Herb Company,FG-RC-LB,Rooibos Chai 1 Lb,FinishedProduct,FG-RC-LB,Rooibos Chai 1 Lb,1.0000
+Whole Herb Company,FG-RKT-LB,Rice Krispy 1 Lb,Component,RM-F-Mashmallow,Marshmallow Flavoring,0.0420
+Whole Herb Company,FG-RKT-LB,Rice Krispy 1 Lb,FinishedProduct,FG-RKT-LB,Rice Krispy 1 Lb,1.0000
+Whole Herb Company,FG-RKT-LB,Rice Krispy 1 Lb,Component,RM-GenmaichaTea,Genmaicha Tea,0.9580
+Whole Herb Company,FG-SC-LB,Sleepy Chai 1 Lb,Component,RM-RooibosTea,Rooibos Tea,0.1960
+Whole Herb Company,FG-SC-LB,Sleepy Chai 1 Lb,Component,RM-F-Cardamom,Cardamom Flavoring,0.0061
+Whole Herb Company,FG-SC-LB,Sleepy Chai 1 Lb,FinishedProduct,FG-SC-LB,Sleepy Chai 1 Lb,1.0000
+Whole Herb Company,FG-SGT-LB,Strawberry Green 1 Lb,Component,RM-GreenTeaChunMee,Green Tea (Chun Mee),0.9096
+Whole Herb Company,FG-SGT-LB,Strawberry Green 1 Lb,Component,RM-F-Strawberry,Strawberry Flavoring,0.0790
+Whole Herb Company,FG-SGT-LB,Strawberry Green 1 Lb,FinishedProduct,FG-SGT-LB,Strawberry Green 1 Lb,1.0000
+Whole Herb Company,FG-ST-LB,Sore Throat 1 Lb,Component,RM-GreenTeaChunMee,Green Tea (Chun Mee),0.0950
+Whole Herb Company,FG-ST-LB,Sore Throat 1 Lb,Component,RM-ChamomileFlower,Chamomile Flower,0.0250
+Whole Herb Company,FG-ST-LB,Sore Throat 1 Lb,FinishedProduct,FG-ST-LB,Sore Throat 1 Lb,1.0000
+Whole Herb Company,FG-TG-LB,Tropical Green 1 Lb,Component,RM-GreenTeaChunMee,Green Tea (Chun Mee),0.9492
+Whole Herb Company,FG-TG-LB,Tropical Green 1 Lb,Component,RM-F-Pineapple,Pineapple Flavoring,0.0198
+Whole Herb Company,FG-TG-LB,Tropical Green 1 Lb,Component,RM-F-Papaya,Papaya Flavoring,0.0198
+Whole Herb Company,FG-TG-LB,Tropical Green 1 Lb,FinishedProduct,FG-TG-LB,Tropical Green 1 Lb,1.0000
+Whole Herb Company,FG-WBH-LB,Wild Berry Hibiscus 1 Lb,Component,RM-F-WildBerry,Wild Berry Flavoring,0.0230
+Whole Herb Company,FG-WBH-LB,Wild Berry Hibiscus 1 Lb,FinishedProduct,FG-WBH-LB,Wild Berry Hibiscus 1 Lb,1.0000

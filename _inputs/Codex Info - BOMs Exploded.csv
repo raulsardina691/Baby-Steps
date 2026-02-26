@@ -1,0 +1,60 @@
+Tea,Base SKU,Component SKU,Component Name,Qty per Base lb,Total Base lbs (from PO Cal),Component lbs Needed,Supplier,Unit Cost,Ext Cost
+Blackberry Tea,FG-BB-LB,RM-BlackTea,Black Tea,0.96,205,196.8,GS Haly,$3.18,$625.82
+Blackberry Tea,FG-BB-LB,RM-F-Blackberry,Blackberry Flavoring,0.0208,205,4.264,Nature's Flavors,$51.15,$218.12
+Blue Tea,FG-BT-LB,RM-BlackTea,Black Tea,0.6,,0,GS Haly,$3.18,$0.00
+Blue Tea,FG-BT-LB,RM-F-Passionfruit,Passionfruit Flavoring,0.015,,0,Nature's Flavors,$55.39,$0.00
+Blue Tea,FG-BT-LB,RM-F-Lemom,Lemon Flavoring,0.0012,,0,Flavor Dynamics,$34.40,$0.00
+Blueberry Green,FG-BBGT-LB,RM-GreenTeaChunMee,Green Tea (Chun Mee),0.9384,,0,GS Haly,$2.91,$0.00
+Blueberry Green,FG-BBGT-LB,RM-F-Blueberry,Blueberry Flavoring,0.0416,,0,Nature's Flavors,$55.39,$0.00
+Campfire Blend,FG-CF-LB,RM-LapsangSouchongTea,Lapsang Souchong Tea,0.9584,,0,GS Haly,$5.97,$0.00
+Campfire Blend,FG-CF-LB,RM-F-CedarTip,Cedar Tip Flavoring,0.0416,,0,Flavor Dynamics,$11.95,$0.00
+Chamomile Mint,FG-CM-LB,RM-ChamomileFlower,Chamomile Flower,0.42,,0,,,
+Citrus Chamomile,FG-CC-LB,RM-ChamomileFlower,Chamomile Flower,0.38,,0,,,
+Coconut Assam,FG-CA-LB,RM-AssamBlackTea,Assam Black Tea,0.8936,,0,GS Haly,$5.76,$0.00
+Coconut Assam,FG-CA-LB,RM-F-Coconut,Coconut Flavoring,0.0558,,0,Nature's Flavors,$55.22,$0.00
+Coconut Chai,FG-CCHAI-LB,RM-BlackTea,Black Tea,0.2332,,0,GS Haly,$3.18,$0.00
+Coconut Chai,FG-CCHAI-LB,RM-F-Cardamom,Cardamom Flavoring,0.0073,,0,Flavor Dynamics,$33.95,$0.00
+Coconut Chai,FG-CCHAI-LB,RM-F-Coconut,Coconut Flavoring,0.0294,,0,Nature's Flavors,$55.22,$0.00
+Detox Tea,FG-DT-LB,FG-DT-LB,Detox Tea,1,,0,Whole Herb Company,$8.35,$0.00
+Earl Grey,FG-EG-LB,RM-BlackTea,Black Tea,0.93,338.79,315.0736,GS Haly,$3.18,"$1,001.93"
+Earl Grey,FG-EG-LB,RM-F-Bergamot,Bergamot Flavoring,0.058,338.79,19.6497,Flavor Dynamics,$91.75,"$1,802.86"
+Earl Grey Chai,FG-EGC-LB,RM-BlackTea,Black Tea,0.249,,0,GS Haly,$3.18,$0.00
+Earl Grey Chai,FG-EGC-LB,RM-F-Cardamom,Cardamom Flavoring,0.0073,,0,Flavor Dynamics,$33.95,$0.00
+Earl Grey Chai,FG-EGC-LB,RM-F-Bergamot,Bergamot Flavoring,0.0155,,0,Flavor Dynamics,$91.75,$0.00
+English Breakfast,FG-EB-LB,RM-BlackTea,Black Tea,0.25,0.99,0.248,GS Haly,$3.18,$0.79
+English Breakfast,FG-EB-LB,RM-KeemunCongouTea,Keemun Congou Tea,0.25,0.99,0.248,GS Haly,$6.28,$1.56
+English Breakfast,FG-EB-LB,RM-CeylonBlackTea,Ceylon Black Tea,0.25,0.99,0.248,GS Haly,$6.97,$1.73
+English Breakfast,FG-EB-LB,RM-AssamBlackTea,Assam Black Tea,0.25,0.99,0.248,GS Haly,$5.76,$1.43
+Fresh Crafted Spiced Chai,FG-FCSC-LB,RM-BlackTea,Black Tea,0.2402,,0,GS Haly,$3.18,$0.00
+Fresh Crafted Spiced Chai,FG-FCSC-LB,RM-F-Cardamom,Cardamom Flavoring,0.0076,,0,Flavor Dynamics,$33.95,$0.00
+Ginger Peach,FG-GP-LB,RM-BlackTea,Black Tea,0.73,,0,GS Haly,$3.18,$0.00
+Ginger Peach,FG-GP-LB,RM-F-Peach,Peach Flavoring,0.0156,,0,Nature's Flavors,$54.01,$0.00
+Green Tea (Chun Mee),RM-GreenTeaChunMee,RM-GreenTeaChunMee,Green Tea (Chun Mee),1,,0,GS Haly,$2.91,$0.00
+Jasmine Tea,FG-JT-LB,RM-GreenTeaChunMee,Green Tea (Chun Mee),0.96,,0,GS Haly,$2.91,$0.00
+Jasmine Tea,FG-JT-LB,RM-F-Jasmine,Jasmine Flavoring,0.0208,,0,Nature's Flavors,$46.99,$0.00
+Lavender Tea,FG-LT-LB,RM-CeylonBlackTea,Ceylon Black Tea,0.73,,0,GS Haly,$6.97,$0.00
+Lemon Ginger Tonic,FG-LGT-LB,FG-LGT-LB,Lemon Ginger Tonic,1,,0,Whole Herb Company,$6.55,$0.00
+Lemon Mint,FG-LM-LB,RM-F-Lemom,Lemon Flavoring,0.025,,0,Flavor Dynamics,$34.40,$0.00
+Mango Tea,FG-MT-LB,RM-BlackTea,Black Tea,0.97,,0,GS Haly,$3.18,$0.00
+Mango Tea,FG-MT-LB,RM-F-Mango,Mango Flavoring,0.0208,,0,Nature's Flavors,$55.71,$0.00
+NW Breakfast,FG-NB-LB,RM-AssamBlackTea,Assam Black Tea,0.48,,0,GS Haly,$5.76,$0.00
+NW Breakfast,FG-NB-LB,RM-BlackTea,Black Tea,0.24,,0,GS Haly,$3.18,$0.00
+NW Breakfast,FG-NB-LB,RM-CeylonBlackTea,Ceylon Black Tea,0.24,,0,GS Haly,$6.97,$0.00
+NW Breakfast,FG-NB-LB,RM-F-CedarTip,Cedar Tip Flavoring,0.04,,0,Flavor Dynamics,$11.95,$0.00
+Orange Spice Cinnamon,FG-OSCT-LB,RM-BlackTea,Black Tea,0.83,,0,GS Haly,$3.18,$0.00
+Orange Spice Cinnamon,FG-OSCT-LB,RM-F-OrangeCinnamon,Orange Cinnamon Flavoring,0.0602,,0,Flavor Dynamics,$123.00,$0.00
+Peppermint Leaf,RM-PeppermintLeaf,RM-PeppermintLeaf,Peppermint Leaf,1,0.5,0.496,Whole Herb Company,$3.39,$1.68
+Rice Krispy,FG-RKT-LB,RM-F-Mashmallow,Marshmallow Flavoring,0.042,,0,Nature's Flavors,$52.44,$0.00
+Rice Krispy,FG-RKT-LB,RM-GenmaichaTea,Genmaicha Tea,0.958,,0,GS Haly,$9.66,$0.00
+Rooibos Chai,FG-RC-LB,RM-RooibosTea,Rooibos Tea,0.2402,,0,GS Haly,$3.94,$0.00
+Rooibos Chai,FG-RC-LB,RM-F-Cardamom,Cardamom Flavoring,0.0076,,0,Flavor Dynamics,$33.95,$0.00
+Sleepy Chai,FG-SC-LB,RM-RooibosTea,Rooibos Tea,0.196,,0,GS Haly,$3.94,$0.00
+Sleepy Chai,FG-SC-LB,RM-F-Cardamom,Cardamom Flavoring,0.0061,,0,Flavor Dynamics,$33.95,$0.00
+Sore Throat,FG-ST-LB,RM-GreenTeaChunMee,Green Tea (Chun Mee),0.095,,0,GS Haly,$2.91,$0.00
+Sore Throat,FG-ST-LB,RM-ChamomileFlower,Chamomile Flower,0.025,,0,,,
+Strawberry Green,FG-SGT-LB,RM-GreenTeaChunMee,Green Tea (Chun Mee),0.9096,,0,GS Haly,$2.91,$0.00
+Strawberry Green,FG-SGT-LB,RM-F-Strawberry,Strawberry Flavoring,0.079,,0,Nature's Flavors,$53.95,$0.00
+Tropical Green,FG-TG-LB,RM-GreenTeaChunMee,Green Tea (Chun Mee),0.9492,,0,GS Haly,$2.91,$0.00
+Tropical Green,FG-TG-LB,RM-F-Pineapple,Pineapple Flavoring,0.0198,,0,Nature's Flavors,$90.26,$0.00
+Tropical Green,FG-TG-LB,RM-F-Papaya,Papaya Flavoring,0.0198,,0,Nature's Flavors,$54.34,$0.00
+Wild Berry Hibiscus,FG-WBH-LB,RM-F-WildBerry,Wild Berry Flavoring,0.023,,0,Nature's Flavors,$57.31,$0.00

@@ -1,0 +1,31 @@
+Tea,BaseSKU,BaseProduct,BaseSupplier,BaseUnitCost,SKU_24ct,Product_24ct,UnitCost_24ct,BaseLbsPer_24ct,SKU_Loose,Product_Loose,UnitCost_Loose,BaseLbsPer_Loose,SKU_Sachet,BaseLbsPer_Sachet
+Blackberry Tea,FG-BB-LB,Blackberry Tea,Whole Herb Company,$2.25,BB-24BAGS,Blackberry Tea Retail 24 CT,$1.71,0.1587,BB-LL,Blackberry Tea Loose Leaf 6 Ounces,$0.74,0.375,,0.0066
+Blue Tea,FG-BT-LB,Blue Tea,Whole Herb Company,$6.75,BT-24BAGS,Blue Tea Retail 24 CT,$1.71,0.1482,BT-LL,Blue Tea Loose Leaf 6 Ounces,$0.74,0.375,,0.0062
+Blueberry Green,FG-BBGT-LB,Blueberry Green,Whole Herb Company,$2.65,BBGT-24BAGS,Blueberry Green Tea Retail 24 CT,$1.71,0.1587,BBGT-LL,Blueberry Green Tea Loose Leaf 6 Ounces,$0.74,0.375,,0.0066
+Campfire Blend,FG-CF-LB,Campfire Blend,Whole Herb Company,$2.25,CF-24BAGS,Campfire Blend Retail 24 CT,$1.71,0.1587,CF-LL,Campfire Blend Loose Leaf 6 Ounces,$0.74,0.375,,0.0066
+Chamomile Mint,FG-CM-LB,Chamomile Mint,Whole Herb Company,$6.85,CM-24BAGS,Chamomile Mint Retail 24 CT,$1.71,0.1587,CM-LL,Chamomile Mint Loose Leaf 3 Ounces,$0.74,0.1875,,0.0066
+Citrus Chamomile,FG-CC-LB,Citrus Chamomile,Whole Herb Company,$6.65,CC-24BAGS,Citrus Chamomile Retail 24 CT,$1.71,0.1058,CC-LL,Citrus Chamomile Loose Leaf 3 Ounces,$0.74,0.1875,,0.0044
+Coconut Assam,FG-CA-LB,Coconut Assam,Whole Herb Company,$2.35,CA-24BAGS,Coconut Assam Retail 24 CT,$1.71,0.1587,CA-LL,Coconut Assam Loose Leaf 6 Ounces,$0.74,0.375,,0.0066
+Coconut Chai,FG-CCHAI-LB,Coconut Chai,Whole Herb Company,$6.25,CCHAI-24BAGS,Coconut Chai Retail 24 CT,$1.71,0.2646,CCHAI-LL,Coconut Chai Loose Leaf 8 Ounces,$0.74,0.5,,0.011
+Detox Tea,FG-DT-LB,Detox Tea,Whole Herb Company,$8.35,DT-24BAGS,Detox Tea Retail 24 CT,$1.71,0.1587,DT-LL,Detox Tea Loose Leaf 4 Ounces,$0.74,0.25,,0.0066
+Earl Grey,FG-EG-LB,Earl Grey,Whole Herb Company,$2.25,EG-24BAGS,Earl Grey Retail 24 CT,$1.71,0.1587,EG-LL,Earl Grey Loose Leaf 6 Ounces,$0.74,0.375,FG-EG-S,0.0066
+Earl Grey Chai,FG-EGC-LB,Earl Grey Chai,Whole Herb Company,$6.65,EGC-24BAGS,Earl Grey Chai Retail 24 CT,$1.71,0.2646,EGC-LL,Earl Grey Chai Loose Leaf 8 Ounces,$0.74,0.5,,0.011
+English Breakfast,FG-EB-LB,English Breakfast,Whole Herb Company,$2.45,EB-24BAGS,English Breakfast Retail 24 CT,$1.71,0.1587,EB-LL,English Breakfast Loose Leaf 6 Ounces,$0.74,0.375,FG-EB-S,0.0066
+Fresh Crafted Spiced Chai,FG-FCSC-LB,Fresh Crafted Spiced Chai,Whole Herb Company,$6.35,FCSC-24BAGS,Fresh Crafted Spiced Chai Retail 24 CT,$1.71,0.2646,FCSC-LL,Fresh Crafted Spiced Chai Loose Leaf 8 Ounces,$0.74,0.5,,0.011
+Ginger Peach,FG-GP-LB,Ginger Peach,Whole Herb Company,$3.35,GP-24BAGS,Ginger Peach Retail 24 CT,$1.71,0.1587,GP-LL,Ginger Peach Loose Leaf 6 Ounces,$0.74,0.375,,0.0066
+Green Tea (Chun Mee),RM-GreenTeaChunMee,Green Tea (Chun Mee),GS Haly,$2.51,GT-24BAGS,Green Tea (Chun Mee) Retail 24 CT,$1.71,0.1587,GT-LL,Green Tea (Chun Mee) Loose Leaf 6 Ounces,$0.74,0.375,,0.0066
+Jasmine Tea,FG-JT-LB,Jasmine Tea,Whole Herb Company,$2.35,JT-24BAGS,Jasmine Tea Retail 24 CT,$1.71,0.1587,JT-LL,Jasmine Tea Loose Leaf 6 Ounces,$0.74,0.375,,0.0066
+Lavender Tea,FG-LT-LB,Lavender Tea,Whole Herb Company,$3.99,LT-24BAGS,Lavender Tea Retail 24 CT,$1.71,0.1587,LT-LL,Lavender Tea Loose Leaf 5 Ounces,$0.74,0.3125,,0.0066
+Lemon Ginger Tonic,FG-LGT-LB,Lemon Ginger Tonic,Whole Herb Company,$6.35,LGT-24BAGS,Lemon Ginger Tonic Retail 24 CT,$1.71,0.1376,LGT-LL,Lemon Ginger Tonic Loose Leaf 5 Ounces,$0.74,0.3125,,0.0057
+Lemon Mint,FG-LM-LB,Lemon Mint,Whole Herb Company,$6.95,LM-24BAGS,Lemon Mint Retail 24 CT,$1.71,0.0794,LM-LL,Lemon Mint Tea Loose Leaf 4 Ounces,$0.74,0.245,,0.0033
+Mango Tea,FG-MT-LB,Mango Tea,Whole Herb Company,$2.35,MT-24BAGS,Mango Tea Retail 24 CT,$1.71,0.1587,MT-LL,Mango Tea Loose Leaf 6 Ounces,$0.74,0.375,,0.0066
+NW Breakfast,FG-NB-LB,NW Breakfast,Whole Herb Company,$2.25,NB-24BAGS,NW Breakfast Retail 24 CT,1.71,0.1587,NB-LL,NW Breakfast Loose Leaf 6 Ounces,0.74,0.375,,0.0066
+Orange Spice Cinnamon,FG-OSCT-LB,Orange Spice Cinnamon,Whole Herb Company,$2.50,OSCT-24BAGS,Orange Spice Cinnamon Retail 24 CT,$1.71,0.1587,OSCT-LL,Orange Spice Cinnamon Loose Leaf 6 Ounces,$0.74,0.375,FG-OSCT-S,0.0066
+Peppermint Leaf,RM-PeppermintLeaf,Peppermint Leaf,Whole Herb Company,$3.39,PL-24BAGS,Peppermint Leaf Retail 24 CT,$1.71,0.0794,PL-LL,Peppermint Leaf Loose Leaf 3 Ounces,$0.74,0.1875,FG-PL-S,0.0033
+Rice Krispy,FG-RKT-LB,Rice Krispy,Whole Herb Company,$2.25,RKT-24BAGS,Rice Krispy Tea Retail 24 CT,$1.71,0.1587,RKT-LL,Rice Krispy Tea Loose Leaf 6 Ounces,$0.74,0.375,,0.0066
+Rooibos Chai,FG-RC-LB,Rooibos Chai,Whole Herb Company,$6.65,RC-24BAGS,Rooibos Chai Retail 24 CT,$1.71,0.2646,RC-LL,Rooibos Chai Loose Leaf 8 Ounces,$0.74,0.5,,0.011
+Sleepy Chai,FG-SC-LB,Sleepy Chai,Whole Herb Company,$7.25,SC-24BAGS,Sleepy Chai Retail 24 CT,$1.71,0.2646,SC-LL,Sleepy Chai Loose Leaf 8 Ounces,$0.74,0.5,,0.011
+Sore Throat,FG-ST-LB,Sore Throat,Whole Herb Company,$6.95,ST-24BAGS,Sore Throat Retail 24 CT,$1.71,0.1587,ST-LL,Sore Throat Loose Leaf 4 Ounces,$0.74,0.25,,0.0066
+Strawberry Green,FG-SGT-LB,Strawberry Green,Whole Herb Company,$2.35,SGT-24BAGS,Strawberry Green Tea Retail 24 CT,$1.71,0.1587,SGT-LL,Strawberry Green Tea Loose Leaf 6 Ounces,$0.74,0.375,,0.0066
+Tropical Green,FG-TG-LB,Tropical Green,Whole Herb Company,$2.25,TG-24BAGS,Tropical Green Tea Retail 24 CT,$1.71,0.1587,TG-LL,Tropical Green Tea Loose Leaf 6 Ounces,$0.74,0.375,FG-TG-S,0.0066
+Wild Berry Hibiscus,FG-WBH-LB,Wild Berry Hibiscus,Whole Herb Company,$7.49,WBH-24BAGS,Wild Berry Hibiscus Retail 24 CT,$1.71,0.2381,WBH-LL,Wild Berry Hibiscus Loose Leaf 6 Ounces,$0.74,0.375,FG-WBH-S,0.0099

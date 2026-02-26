@@ -1,0 +1,181 @@
+SKU,Supplier,Product,Unit Cost
+RM-F-Bergamot,Flavor Dynamics,Bergamot Flavoring,$91.75
+RM-F-Cardamom,Flavor Dynamics,Cardamom Flavoring,$33.95
+RM-F-CedarTip,Flavor Dynamics,Cedar Tip Flavoring,$11.95
+RM-F-Lemom,Flavor Dynamics,Lemon Flavoring,$34.40
+RM-F-OrangeCinnamon,Flavor Dynamics,Orange Cinnamon Flavoring,$123.00
+RM-AssamBlackTea,GS Haly,Assam Black Tea,$5.76
+RM-BlackTea,GS Haly,Black Tea,$3.18
+RM-CeylonBlackTea,GS Haly,Ceylon Black Tea,$6.97
+RM-GenmaichaTea,GS Haly,Genmaicha Tea,$9.66
+RM-GreenTeaChunMee,GS Haly,Green Tea (Chun Mee),$2.91
+RM-KeemunCongouTea,GS Haly,Keemun Congou Tea,$6.28
+RM-LapsangSouchongTea,GS Haly,Lapsang Souchong Tea,$5.97
+RM-RooibosTea,GS Haly,Rooibos Tea,$3.94
+BB-24BAGS,Motovotano LLC,Blackberry Tea Retail 24 CT,$1.71
+BB-LL,Motovotano LLC,Blackberry Tea Loose Leaf 6 Ounces,$0.74
+BBGT-24BAGS,Motovotano LLC,Blueberry Green Tea Retail 24 CT,$1.71
+BBGT-LL,Motovotano LLC,Blueberry Green Tea Loose Leaf 6 Ounces,$0.74
+BT-24BAGS,Motovotano LLC,Blue Tea Retail 24 CT,$1.71
+BT-LL,Motovotano LLC,Blue Tea Loose Leaf 6 Ounces,$0.74
+CA-24BAGS,Motovotano LLC,Coconut Assam Retail 24 CT,$1.71
+CA-LL,Motovotano LLC,Coconut Assam Loose Leaf 6 Ounces,$0.74
+CC-24BAGS,Motovotano LLC,Citrus Chamomile Retail 24 CT,$1.71
+CC-LL,Motovotano LLC,Citrus Chamomile Loose Leaf 3 Ounces,$0.74
+CCHAI-24BAGS,Motovotano LLC,Coconut Chai Retail 24 CT,$1.71
+CCHAI-LL,Motovotano LLC,Coconut Chai Loose Leaf 8 Ounces,$0.74
+CF-24BAGS,Motovotano LLC,Campfire Blend Retail 24 CT,$1.71
+CF-LL,Motovotano LLC,Campfire Blend Loose Leaf 6 Ounces,$0.74
+CM-24BAGS,Motovotano LLC,Chamomile Mint Retail 24 CT,$1.71
+CM-LL,Motovotano LLC,Chamomile Mint Loose Leaf 3 Ounces,$0.74
+DT-24BAGS,Motovotano LLC,Detox Tea Retail 24 CT,$1.71
+DT-LL,Motovotano LLC,Detox Tea Loose Leaf 4 Ounces,$0.74
+EB-24BAGS,Motovotano LLC,English Breakfast Retail 24 CT,$1.71
+EB-LL,Motovotano LLC,English Breakfast Loose Leaf 6 Ounces,$0.74
+EG-24BAGS,Motovotano LLC,Earl Grey Retail 24 CT,$1.71
+EG-LL,Motovotano LLC,Earl Grey Loose Leaf 6 Ounces,$0.74
+EGC-24BAGS,Motovotano LLC,Earl Grey Chai Retail 24 CT,$1.71
+EGC-LL,Motovotano LLC,Earl Grey Chai Loose Leaf 8 Ounces,$0.74
+FCSC-24BAGS,Motovotano LLC,Fresh Crafted Spiced Chai Retail 24 CT,$1.71
+FCSC-LL,Motovotano LLC,Fresh Crafted Spiced Chai Loose Leaf 8 Ounces,$0.74
+FG-EB-S,Motovotano LLC,English Breakfast Sachet,$0.07
+FG-EG-S,Motovotano LLC,Earl Grey Sachet,$0.07
+FG-OSCT-S,Motovotano LLC,Orange Spice Cinnamon Sachet,$0.07
+FG-PL-S,Motovotano LLC,Peppermint Leaf Sachet,$0.07
+FG-TG-S,Motovotano LLC,Tropical Green Sachet,$0.07
+FG-WBH-S,Motovotano LLC,Wild Berry Hibiscus Sachet,$0.07
+GP-24BAGS,Motovotano LLC,Ginger Peach Retail 24 CT,$1.71
+GP-LL,Motovotano LLC,Ginger Peach Loose Leaf 6 Ounces,$0.74
+GT-24BAGS,Motovotano LLC,Green Tea (Chun Mee) Retail 24 CT,$1.71
+GT-LL,Motovotano LLC,Green Tea (Chun Mee) Loose Leaf 6 Ounces,$0.74
+JT-24BAGS,Motovotano LLC,Jasmine Tea Retail 24 CT,$1.71
+JT-LL,Motovotano LLC,Jasmine Tea Loose Leaf 6 Ounces,$0.74
+LGT-24BAGS,Motovotano LLC,Lemon Ginger Tonic Retail 24 CT,$1.71
+LGT-LL,Motovotano LLC,Lemon Ginger Tonic Loose Leaf 5 Ounces,$0.74
+LM-24BAGS,Motovotano LLC,Lemon Mint Retail 24 CT,$1.71
+LM-LL,Motovotano LLC,Lemon Mint Tea Loose Leaf 4 Ounces,$0.74
+LT-24BAGS,Motovotano LLC,Lavender Tea Retail 24 CT,$1.71
+LT-LL,Motovotano LLC,Lavender Tea Loose Leaf 5 Ounces,$0.74
+MT-24BAGS,Motovotano LLC,Mango Tea Retail 24 CT,$1.71
+MT-LL,Motovotano LLC,Mango Tea Loose Leaf 6 Ounces,$0.74
+NB-24BAGS,Motovotano LLC,Northwest Breakfast Retail 24 CT,$1.71
+NB-LL,Motovotano LLC,Northwest Breakfast Loose Leaf 6 Ounces,$0.74
+OSCT-24BAGS,Motovotano LLC,Orange Spice Cinnamon Retail 24 CT,$1.71
+OSCT-LL,Motovotano LLC,Orange Spice Cinnamon Loose Leaf 6 Ounces,$0.74
+PL-24BAGS,Motovotano LLC,Peppermint Leaf Retail 24 CT,$1.71
+PL-LL,Motovotano LLC,Peppermint Leaf Loose Leaf 3 Ounces,$0.74
+RC-24BAGS,Motovotano LLC,Rooibos Chai Retail 24 CT,$1.71
+RC-LL,Motovotano LLC,Rooibos Chai Loose Leaf 8 Ounces,$0.74
+RKT-24BAGS,Motovotano LLC,Rice Krispy Tea Retail 24 CT,$1.71
+RKT-LL,Motovotano LLC,Rice Krispy Tea Loose Leaf 6 Ounces,$0.74
+SC-24BAGS,Motovotano LLC,Sleepy Chai Retail 24 CT,$1.71
+SC-LL,Motovotano LLC,Sleepy Chai Loose Leaf 8 Ounces,$0.74
+SGT-24BAGS,Motovotano LLC,Strawberry Green Tea Retail 24 CT,$1.71
+SGT-LL,Motovotano LLC,Strawberry Green Tea Loose Leaf 6 Ounces,$0.74
+ST-24BAGS,Motovotano LLC,Sore Throat Retail 24 CT,$1.71
+ST-LL,Motovotano LLC,Sore Throat Loose Leaf 4 Ounces,$0.74
+TG-24BAGS,Motovotano LLC,Tropical Green Tea Retail 24 CT,$1.71
+TG-LL,Motovotano LLC,Tropical Green Tea Loose Leaf 6 Ounces,$0.74
+WBH-24BAGS,Motovotano LLC,Wild Berry Hibiscus Retail 24 CT,$1.71
+WBH-LL,Motovotano LLC,Wild Berry Hibiscus Loose Leaf 6 Ounces,$0.74
+RM-F-Blackberry,Nature's Flavors,Blackberry Flavoring,
+RM-F-Blueberry,Nature's Flavors,Blueberry Flavoring,
+RM-F-Coconut,Nature's Flavors,Coconut Flavoring,
+RM-F-Jasmine,Nature's Flavors,Jasmine Flavoring,
+RM-F-Mango,Nature's Flavors,Mango Flavoring,
+RM-F-Mashmallow,Nature's Flavors,Marshmallow Flavoring,
+RM-F-Papaya,Nature's Flavors,Papaya Flavoring,
+RM-F-Passionfruit,Nature's Flavors,Passionfruit Flavoring,
+RM-F-Peach,Nature's Flavors,Peach Flavoring,
+RM-F-Pineapple,Nature's Flavors,Pineapple Flavoring,
+RM-F-Strawberry,Nature's Flavors,Strawberry Flavoring,
+RM-F-WildBerry,Nature's Flavors,Wild Berry Flavoring,
+FG-BB-LB,Whole Herb Company,Blackberry Tea,$2.15
+FG-BBGT-LB,Whole Herb Company,Blueberry Green,$2.65
+FG-BT-LB,Whole Herb Company,Blue Tea,$6.75
+FG-CA-LB,Whole Herb Company,Coconut Assam,$2.35
+FG-CC-LB,Whole Herb Company,Citrus Chamomile,$6.65
+FG-CCHAI-LB,Whole Herb Company,Coconut Chai,$6.25
+FG-CF-LB,Whole Herb Company,Campfire Blend,$2.25
+FG-CM-LB,Whole Herb Company,Chamomile Mint,$6.85
+FG-DT-LB,Whole Herb Company,Detox Tea,$8.35
+FG-EB-LB,Whole Herb Company,English Breakfast,$2.45
+FG-EG-LB,Whole Herb Company,Earl Grey,$2.25
+FG-EGC-LB,Whole Herb Company,Earl Grey Chai,$6.65
+FG-FCSC-LB,Whole Herb Company,Fresh Crafted Spiced Chai,$6.35
+FG-GP-LB,Whole Herb Company,Ginger Peach,$3.35
+FG-JT-LB,Whole Herb Company,Jasmine Tea,$2.15
+FG-LGT-LB,Whole Herb Company,Lemon Ginger Tonic,$6.55
+FG-LM-LB,Whole Herb Company,Lemon Mint,$6.95
+FG-LT-LB,Whole Herb Company,Lavender Tea,$3.99
+FG-MT-LB,Whole Herb Company,Mango Tea,$2.35
+FG-NB-LB,Whole Herb Company,NW Breakfast,$2.35
+FG-OSCT-LB,Whole Herb Company,Orange Spice Cinnamon,$2.50
+FG-RC-LB,Whole Herb Company,Rooibos Chai,$6.79
+FG-RKT-LB,Whole Herb Company,Rice Krispy,$2.15
+FG-SC-LB,Whole Herb Company,Sleepy Chai,$7.89
+FG-SGT-LB,Whole Herb Company,Strawberry Green,$2.55
+FG-ST-LB,Whole Herb Company,Sore Throat,$6.95
+FG-TG-LB,Whole Herb Company,Tropical Green,$2.25
+FG-WBH-LB,Whole Herb Company,Wild Berry Hibiscus,$7.49
+RM-Peppermintleaf,Whole Herb Company,Peppermint Leaf,$3.39
+PKG-BB-24BAGS,TricorBraun Flex,BB-24BAGS Packaging,
+PKG-BB-LL,TricorBraun Flex,BB-LL Packaging,
+PKG-BBGT-24BAGS,TricorBraun Flex,BBGT-24BAGS Packaging,
+PKG-BBGT-LL,TricorBraun Flex,BBGT-LL Packaging,
+PKG-BT-24BAGS,TricorBraun Flex,BT-24BAGS Packaging,
+PKG-BT-LL,TricorBraun Flex,BT-LL Packaging,
+PKG-CA-24BAGS,TricorBraun Flex,CA-24BAGS Packaging,
+PKG-CA-LL,TricorBraun Flex,CA-LL Packaging,
+PKG-CC-24BAGS,TricorBraun Flex,CC-24BAGS Packaging,
+PKG-CC-LL,TricorBraun Flex,CC-LL Packaging,
+PKG-CCHAI-24BAGS,TricorBraun Flex,CCHAI-24BAGS Packaging,
+PKG-CCHAI-LL,TricorBraun Flex,CCHAI-LL Packaging,
+PKG-CF-24BAGS,TricorBraun Flex,CF-24BAGS Packaging,
+PKG-CF-LL,TricorBraun Flex,CF-LL Packaging,
+PKG-CM-24BAGS,TricorBraun Flex,CM-24BAGS Packaging,
+PKG-CM-LL,TricorBraun Flex,CM-LL Packaging,
+PKG-DT-24BAGS,TricorBraun Flex,DT-24BAGS Packaging,
+PKG-DT-LL,TricorBraun Flex,DT-LL Packaging,
+PKG-EB-24BAGS,TricorBraun Flex,EB-24BAGS Packaging,
+PKG-EB-LL,TricorBraun Flex,EB-LL Packaging,
+PKG-EG-24BAGS,TricorBraun Flex,EG-24BAGS Packaging,
+PKG-EG-LL,TricorBraun Flex,EG-LL Packaging,
+PKG-EGC-24BAGS,TricorBraun Flex,EGC-24BAGS Packaging,
+PKG-EGC-LL,TricorBraun Flex,EGC-LL Packaging,
+PKG-FCSC-24BAGS,TricorBraun Flex,FCSC-24BAGS Packaging,
+PKG-FCSC-LL,TricorBraun Flex,FCSC-LL Packaging,
+PKG-GP-24BAGS,TricorBraun Flex,GP-24BAGS Packaging,
+PKG-GP-LL,TricorBraun Flex,GP-LL Packaging,
+PKG-GT-24BAGS,TricorBraun Flex,GT-24BAGS Packaging,
+PKG-GT-LL,TricorBraun Flex,GT-LL Packaging,
+PKG-JT-24BAGS,TricorBraun Flex,JT-24BAGS Packaging,
+PKG-JT-LL,TricorBraun Flex,JT-LL Packaging,
+PKG-LGT-24BAGS,TricorBraun Flex,LGT-24BAGS Packaging,
+PKG-LGT-LL,TricorBraun Flex,LGT-LL Packaging,
+PKG-LM-24BAGS,TricorBraun Flex,LM-24BAGS Packaging,
+PKG-LM-LL,TricorBraun Flex,LM-LL Packaging,
+PKG-LT-24BAGS,TricorBraun Flex,LT-24BAGS Packaging,
+PKG-LT-LL,TricorBraun Flex,LT-LL Packaging,
+PKG-MT-24BAGS,TricorBraun Flex,MT-24BAGS Packaging,
+PKG-MT-LL,TricorBraun Flex,MT-LL Packaging,
+PKG-NB-24BAGS,TricorBraun Flex,NB-24BAGS Packaging,
+PKG-NB-LL,TricorBraun Flex,NB-LL Packaging,
+PKG-OSCT-24BAGS,TricorBraun Flex,OSCT-24BAGS Packaging,
+PKG-OSCT-LL,TricorBraun Flex,OSCT-LL Packaging,
+PKG-PL-24BAGS,TricorBraun Flex,PL-24BAGS Packaging,
+PKG-PL-LL,TricorBraun Flex,PL-LL Packaging,
+PKG-RC-24BAGS,TricorBraun Flex,RC-24BAGS Packaging,
+PKG-RC-LL,TricorBraun Flex,RC-LL Packaging,
+PKG-RKT-24BAGS,TricorBraun Flex,RKT-24BAGS Packaging,
+PKG-RKT-LL,TricorBraun Flex,RKT-LL Packaging,
+PKG-SC-24BAGS,TricorBraun Flex,SC-24BAGS Packaging,
+PKG-SC-LL,TricorBraun Flex,SC-LL Packaging,
+PKG-SGT-24BAGS,TricorBraun Flex,SGT-24BAGS Packaging,
+PKG-SGT-LL,TricorBraun Flex,SGT-LL Packaging,
+PKG-ST-24BAGS,TricorBraun Flex,ST-24BAGS Packaging,
+PKG-ST-LL,TricorBraun Flex,ST-LL Packaging,
+PKG-TG-24BAGS,TricorBraun Flex,TG-24BAGS Packaging,
+PKG-TG-LL,TricorBraun Flex,TG-LL Packaging,
+PKG-WBH-24BAGS,TricorBraun Flex,WBH-24BAGS Packaging,
+PKG-WBH-LL,TricorBraun Flex,WBH-LL Packaging,

@@ -1,0 +1,14 @@
+SKU,Supplier,Case Size,Case UOM,Case Cost,Notes
+RM-F-Blackberry,Nature's Flavors,7.33,gal,$374.96,Sell by gallon; case size = lbs/gal
+RM-F-Blueberry,Nature's Flavors,6.77,gal,$374.96,Sell by gallon; case size = lbs/gal
+RM-F-Coconut,Nature's Flavors,6.79,gal,$374.96,Sell by gallon; case size = lbs/gal
+RM-F-Jasmine,Nature's Flavors,7.98,gal,$374.96,Sell by gallon; case size = lbs/gal
+RM-F-Mango,Nature's Flavors,6.73,gal,$374.96,Sell by gallon; case size = lbs/gal
+RM-F-Mashmallow,Nature's Flavors,7.15,gal,$374.96,Sell by gallon; case size = lbs/gal
+RM-F-Papaya,Nature's Flavors,6.9,gal,$374.96,Sell by gallon; case size = lbs/gal
+RM-F-Passionfruit,Nature's Flavors,6.77,gal,$374.96,Sell by gallon; case size = lbs/gal
+RM-F-Peach,Nature's Flavors,7.81,gal,$421.81,Sell by gallon; case size = lbs/gal
+RM-F-Pineapple,Nature's Flavors,6.95,gal,$627.33,Sell by gallon; case size = lbs/gal
+RM-F-Strawberry,Nature's Flavors,6.95,gal,$374.96,Sell by gallon; case size = lbs/gal
+RM-F-WildBerry,Nature's Flavors,7.36,gal,$421.81,Sell by gallon; case size = lbs/gal
+PKG-*,TricorBraun Flex,1000.,case,$654.00,"All Tricor packaging: 1,000 ea/case"
