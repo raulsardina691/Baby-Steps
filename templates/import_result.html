@@ -2,7 +2,22 @@
 {% block content %}
 <h2>CSV Import Result</h2>
 <table>
-  <tr><th>File</th><th>Rows Imported</th></tr>
-  {% for file, count in totals.items() %}<tr><td>{{ file }}</td><td>{{ count }}</td></tr>{% endfor %}
+  <tr><th>File</th><th>Rows Imported</th><th>Rows Skipped</th><th>Errors / Skip Reasons</th></tr>
+  {% for file, details in report.items() %}
+  <tr>
+    <td>{{ file }}</td>
+    <td>{{ details.imported }}</td>
+    <td>{{ details.skipped }}</td>
+    <td>
+      {% if details.errors %}
+      <ul>
+        {% for err in details.errors %}<li>{{ err }}</li>{% endfor %}
+      </ul>
+      {% else %}
+      None
+      {% endif %}
+    </td>
+  </tr>
+  {% endfor %}
 </table>
 {% endblock %}
