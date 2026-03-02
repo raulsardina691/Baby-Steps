@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Suppliers + Address</h2>
+<form method="post" class="form-grid">
+  <input name="code" placeholder="Code" required>
+  <input name="name" placeholder="Supplier Name" required>
+  <input name="email" placeholder="Email">
+  <input name="phone" placeholder="Phone">
+  <input name="notes" placeholder="Notes">
+  <input name="line1" placeholder="Address Line 1">
+  <input name="line2" placeholder="Address Line 2">
+  <input name="city" placeholder="City">
+  <input name="state" placeholder="State">
+  <input name="postal_code" placeholder="Postal Code">
+  <input name="country" placeholder="Country">
+  <button type="submit">Add Supplier</button>
+</form>
+<table>
+  <tr><th>Code</th><th>Name</th><th>Email</th><th>Phone</th><th>Address</th></tr>
+  {% for row in rows %}
+  <tr><td>{{ row.code }}</td><td>{{ row.name }}</td><td>{{ row.email }}</td><td>{{ row.phone }}</td><td>{{ row.line1 }} {{ row.city }} {{ row.state }}</td></tr>
+  {% endfor %}
+</table>
+{% endblock %}

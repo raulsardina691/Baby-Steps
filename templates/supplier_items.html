@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Supplier Items (MOQ, case size, cost)</h2>
+<form method="post" class="form-grid">
+  <select name="supplier_id" required><option value="">Supplier</option>{% for s in suppliers %}<option value="{{ s.id }}">{{ s.name }}</option>{% endfor %}</select>
+  <select name="item_id" required><option value="">Item</option>{% for i in items %}<option value="{{ i.id }}">{{ i.sku }}</option>{% endfor %}</select>
+  <input name="supplier_sku" placeholder="Supplier SKU">
+  <input name="moq" type="number" step="0.01" placeholder="MOQ">
+  <input name="case_size" type="number" step="0.01" placeholder="Case size">
+  <input name="cost" type="number" step="0.0001" placeholder="Cost">
+  <input name="currency" value="USD" placeholder="Currency">
+  <button type="submit">Save</button>
+</form>
+<table>
+  <tr><th>Supplier</th><th>Item</th><th>MOQ</th><th>Case</th><th>Cost</th><th>Currency</th></tr>
+  {% for row in rows %}<tr><td>{{ row.supplier_name }}</td><td>{{ row.item_sku }}</td><td>{{ row.moq }}</td><td>{{ row.case_size }}</td><td>{{ row.cost }}</td><td>{{ row.currency }}</td></tr>{% endfor %}
+</table>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>BOM Lines</h2>
+<form method="post" class="form-grid">
+  <select name="bom_id" required>
+    <option value="">BOM</option>
+    {% for bom in boms %}<option value="{{ bom.id }}">{{ bom.sku }}</option>{% endfor %}
+  </select>
+  <select name="component_item_id" required>
+    <option value="">Component</option>
+    {% for item in items %}<option value="{{ item.id }}">{{ item.sku }}</option>{% endfor %}
+  </select>
+  <input name="qty_per" type="number" step="0.0001" placeholder="Qty per" required>
+  <input name="uom_code" placeholder="UOM">
+  <button type="submit">Add Line</button>
+</form>
+<table>
+  <tr><th>ID</th><th>Parent</th><th>Component</th><th>Qty</th><th>UOM</th></tr>
+  {% for row in rows %}<tr><td>{{ row.id }}</td><td>{{ row.parent_sku }}</td><td>{{ row.component_sku }}</td><td>{{ row.qty_per }}</td><td>{{ row.uom_code }}</td></tr>{% endfor %}
+</table>
+{% endblock %}

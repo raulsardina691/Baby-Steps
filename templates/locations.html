@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Locations</h2>
+<form method="post" class="form-grid">
+  <input name="code" placeholder="Code" required>
+  <input name="name" placeholder="Name" required>
+  <button type="submit">Add Location</button>
+</form>
+<table>
+  <tr><th>Code</th><th>Name</th></tr>
+  {% for row in rows %}<tr><td>{{ row.code }}</td><td>{{ row.name }}</td></tr>{% endfor %}
+</table>
+{% endblock %}

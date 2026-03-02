@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>UOMs + Conversions</h2>
+<section>
+<h3>Add UOM</h3>
+<form method="post" class="form-grid">
+  <input type="hidden" name="form_type" value="uom">
+  <input name="code" placeholder="Code (e.g., LB)" required>
+  <input name="description" placeholder="Description">
+  <button type="submit">Save UOM</button>
+</form>
+</section>
+<section>
+<h3>Add Conversion</h3>
+<form method="post" class="form-grid">
+  <input type="hidden" name="form_type" value="conversion">
+  <input name="from_uom_code" placeholder="From" required>
+  <input name="to_uom_code" placeholder="To" required>
+  <input name="multiplier" type="number" step="0.000001" placeholder="Multiplier" required>
+  <button type="submit">Save Conversion</button>
+</form>
+</section>
+<table>
+  <tr><th>UOMs</th><th>Description</th></tr>
+  {% for row in uoms %}<tr><td>{{ row.code }}</td><td>{{ row.description }}</td></tr>{% endfor %}
+</table>
+<table>
+  <tr><th>From</th><th>To</th><th>Multiplier</th></tr>
+  {% for row in conversions %}<tr><td>{{ row.from_uom_code }}</td><td>{{ row.to_uom_code }}</td><td>{{ row.multiplier }}</td></tr>{% endfor %}
+</table>
+{% endblock %}
