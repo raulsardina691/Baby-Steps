@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Data Audit Report</h2>
+{% if issues %}
+  {% for title, rows in issues %}
+  <section>
+    <h3>{{ title }}</h3>
+    <ul>{% for row in rows %}<li>{{ row }}</li>{% endfor %}</ul>
+  </section>
+  {% endfor %}
+{% else %}
+  <p>No issues found.</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>CSV Import Result</h2>
+<table>
+  <tr><th>File</th><th>Rows Imported</th></tr>
+  {% for file, count in totals.items() %}<tr><td>{{ file }}</td><td>{{ count }}</td></tr>{% endfor %}
+</table>
+{% endblock %}

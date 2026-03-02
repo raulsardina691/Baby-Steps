@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>BOMs</h2>
+<form method="post" class="form-grid">
+  <select name="parent_item_id" required>
+    <option value="">Parent item</option>
+    {% for item in items %}<option value="{{ item.id }}">{{ item.sku }}</option>{% endfor %}
+  </select>
+  <input name="revision" placeholder="Revision" value="A">
+  <input name="effective_date" type="date">
+  <input name="notes" placeholder="Notes">
+  <button type="submit">Create BOM</button>
+</form>
+<table>
+  <tr><th>ID</th><th>Parent SKU</th><th>Revision</th><th>Effective</th></tr>
+  {% for row in boms %}<tr><td>{{ row.id }}</td><td>{{ row.parent_sku }}</td><td>{{ row.revision }}</td><td>{{ row.effective_date }}</td></tr>{% endfor %}
+</table>
+{% endblock %}
