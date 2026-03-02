@@ -171,65 +171,118 @@ def fetch_item_id_by_sku(sku: str):
     return row["id"] if row else None
 
 
+def ensure_supplier(db: sqlite3.Connection, supplier_name: str):
+    name = (supplier_name or "").strip()
+    if not name:
+        return None
+
+    code = name.upper().replace(" ", "_")[:20]
+    supplier = db.execute("SELECT id FROM suppliers WHERE code = ?", (code,)).fetchone()
+    if not supplier:
+        db.execute(
+            "INSERT INTO suppliers (code, name) VALUES (?, ?)",
+            (code, name),
+        )
+        supplier = db.execute("SELECT id FROM suppliers WHERE code = ?", (code,)).fetchone()
+    return supplier["id"]
+
+
+def ensure_bom(db: sqlite3.Connection, parent_sku: str, parent_name: str = ""):
+    upsert_item(parent_sku, parent_name or parent_sku)
+    parent_id = fetch_item_id_by_sku(parent_sku)
+    bom_row = db.execute("SELECT id FROM boms WHERE parent_item_id = ?", (parent_id,)).fetchone()
+    if bom_row:
+        return bom_row["id"]
+
+    db.execute(
+        "INSERT INTO boms (parent_item_id, revision, effective_date) VALUES (?, ?, ?)",
+        (parent_id, "A", datetime.utcnow().date().isoformat()),
+    )
+    return db.execute("SELECT last_insert_rowid() AS id").fetchone()["id"]
+
+
 def import_csv_data():
     db = get_db()
-    totals = {}
+    report = {}
+
+    def init_file_report(file_name: str):
+        report[file_name] = {
+            "imported": 0,
+            "skipped": 0,
+            "errors": [],
+        }
+
+    def require_columns(file_name: str, headers, required):
+        missing = [c for c in required if c not in headers]
+        if missing:
+            report[file_name]["errors"].append(
+                f"missing required column(s): {', '.join(missing)}"
+            )
+            return False
+        return True
+
+    def skip_row(file_name: str, reason: str, row_num: int):
+        report[file_name]["skipped"] += 1
+        report[file_name]["errors"].append(f"row {row_num}: {reason}")
 
     tea_map = INPUTS_DIR / CSV_IMPORTS["items"]
     if tea_map.exists():
-        count = 0
+        init_file_report(tea_map.name)
         with tea_map.open(newline="", encoding="utf-8-sig") as f:
-            for row in csv.DictReader(f):
-                sku = (
-                    row.get("Internal SKU")
-                    or row.get("SKU")
-                    or row.get("Product SKU")
-                    or ""
-                ).strip()
-                name = (
-                    row.get("Name")
-                    or row.get("Product Name")
-                    or row.get("Tea Name")
-                    or sku
-                )
-                if not sku:
-                    continue
-                upsert_item(sku, name)
-                count += 1
-        totals[tea_map.name] = count
+            reader = csv.DictReader(f)
+            if require_columns(tea_map.name, reader.fieldnames or [], ["BaseSKU"]):
+                for row_num, row in enumerate(reader, start=2):
+                    sku_and_names = [
+                        (row.get("BaseSKU", ""), row.get("BaseProduct", "")),
+                        (row.get("SKU_24ct", ""), row.get("Product_24ct", "")),
+                        (row.get("SKU_Loose", ""), row.get("Product_Loose", "")),
+                        (row.get("SKU_Sachet", ""), row.get("Tea", "")),
+                    ]
+                    for sku_raw, name_raw in sku_and_names:
+                        sku = (sku_raw or "").strip()
+                        if not sku:
+                            continue
+                        upsert_item(sku, (name_raw or "").strip() or sku)
+                        report[tea_map.name]["imported"] += 1
 
     supplier_file = INPUTS_DIR / CSV_IMPORTS["suppliers"]
     if supplier_file.exists():
-        count = 0
+        init_file_report(supplier_file.name)
         with supplier_file.open(newline="", encoding="utf-8-sig") as f:
-            for row in csv.DictReader(f):
-                name = (row.get("Supplier") or row.get("Supplier Name") or "").strip()
-                if not name:
-                    continue
-                code = (row.get("Code") or name.upper().replace(" ", "_")[:20]).strip()
-                db.execute(
-                    """
-                    INSERT INTO suppliers (code, name, email, phone, notes)
-                    VALUES (?, ?, ?, ?, ?)
-                    ON CONFLICT(code) DO UPDATE SET
-                        name=excluded.name,
-                        email=excluded.email,
-                        phone=excluded.phone,
-                        notes=excluded.notes
-                    """,
-                    (
-                        code,
-                        name,
-                        row.get("Email", ""),
-                        row.get("Phone", ""),
-                        row.get("Notes", ""),
-                    ),
-                )
-                supplier_id = db.execute(
-                    "SELECT id FROM suppliers WHERE code = ?", (code,)
-                ).fetchone()["id"]
-                line1 = row.get("Address") or row.get("Line 1") or ""
-                if line1.strip():
+            reader = csv.DictReader(f)
+            required = ["VendorName", "BillTo_Line1", "BillTo_City", "BillTo_State", "BillTo_Zip", "BillTo_Country"]
+            if require_columns(supplier_file.name, reader.fieldnames or [], required):
+                for row_num, row in enumerate(reader, start=2):
+                    name = (row.get("VendorName") or "").strip()
+                    if not name:
+                        skip_row(supplier_file.name, "blank VendorName", row_num)
+                        continue
+                    code = name.upper().replace(" ", "_")[:20]
+                    db.execute(
+                        """
+                        INSERT INTO suppliers (code, name, email, phone, notes)
+                        VALUES (?, ?, ?, ?, ?)
+                        ON CONFLICT(code) DO UPDATE SET
+                            name=excluded.name,
+                            email=excluded.email,
+                            phone=excluded.phone,
+                            notes=excluded.notes
+                        """,
+                        (
+                            code,
+                            name,
+                            row.get("Email", ""),
+                            row.get("Phone", ""),
+                            row.get("Terms", ""),
+                        ),
+                    )
+                    supplier_id = db.execute(
+                        "SELECT id FROM suppliers WHERE code = ?", (code,)
+                    ).fetchone()["id"]
+                    line1 = (row.get("BillTo_Line1") or "").strip()
+                    if not line1:
+                        skip_row(supplier_file.name, "blank BillTo_Line1", row_num)
+                        continue
                     db.execute(
                         """
                         INSERT INTO supplier_addresses (supplier_id, line1, line2, city, state, postal_code, country)
@@ -238,90 +291,91 @@ def import_csv_data():
                         (
                             supplier_id,
                             line1,
-                            row.get("Line 2", ""),
-                            row.get("City", ""),
-                            row.get("State", ""),
-                            row.get("Postal", ""),
-                            row.get("Country", ""),
+                            row.get("BillTo_Line2", ""),
+                            row.get("BillTo_City", ""),
+                            row.get("BillTo_State", ""),
+                            row.get("BillTo_Zip", ""),
+                            row.get("BillTo_Country", ""),
                         ),
                     )
-                count += 1
-        totals[supplier_file.name] = count
+                    report[supplier_file.name]["imported"] += 1
 
     bom_file = INPUTS_DIR / CSV_IMPORTS["bom_lines"]
     if bom_file.exists():
-        count = 0
+        init_file_report(bom_file.name)
         with bom_file.open(newline="", encoding="utf-8-sig") as f:
-            for row in csv.DictReader(f):
-                parent_sku = (row.get("Parent SKU") or row.get("Parent") or "").strip()
-                component_sku = (row.get("Component SKU") or row.get("Component") or "").strip()
-                qty = float((row.get("Qty") or row.get("Quantity") or "0") or 0)
+            reader = csv.DictReader(f)
+            required = ["Base SKU", "Component SKU", "Qty per Base lb"]
+            if require_columns(bom_file.name, reader.fieldnames or [], required):
+                for row_num, row in enumerate(reader, start=2):
+                    parent_sku = (row.get("Base SKU") or "").strip()
+                    component_sku = (row.get("Component SKU") or "").strip()
+                    qty = float((row.get("Qty per Base lb") or "0") or 0)
+                    if not parent_sku or not component_sku:
+                        skip_row(bom_file.name, "blank Base SKU or Component SKU", row_num)
+                        continue
+                    upsert_item(component_sku, row.get("Component Name", "") or component_sku)
+                    component_id = fetch_item_id_by_sku(component_sku)
+                    bom_id = ensure_bom(db, parent_sku)
+                    exists = db.execute(
+                        "SELECT id FROM bom_lines WHERE bom_id = ? AND component_item_id = ?",
+                        (bom_id, component_id),
+                    ).fetchone()
+                    if exists:
+                        db.execute(
+                            "UPDATE bom_lines SET qty_per = ?, uom_code = ? WHERE id = ?",
+                            (qty, "lb", exists["id"]),
+                        )
+                    else:
+                        db.execute(
+                            "INSERT INTO bom_lines (bom_id, component_item_id, qty_per, uom_code) VALUES (?, ?, ?, ?)",
+                            (bom_id, component_id, qty, "lb"),
+                        )
+                    report[bom_file.name]["imported"] += 1
+
+    for supplier_key in ["supplier_items_whc", "supplier_items_motovotano"]:
+        csv_file = INPUTS_DIR / CSV_IMPORTS[supplier_key]
+        if not csv_file.exists():
+            continue
+        init_file_report(csv_file.name)
+        with csv_file.open(newline="", encoding="utf-8-sig") as f:
+            reader = csv.DictReader(f)
+            required = ["Supplier", "ProductSKU", "ComponentSKU_ResourceCode", "Quantity"]
+            if not require_columns(csv_file.name, reader.fieldnames or [], required):
+                continue
+
+            for row_num, row in enumerate(reader, start=2):
+                parent_sku = (row.get("ProductSKU") or "").strip()
+                component_sku = (row.get("ComponentSKU_ResourceCode") or "").strip()
+                supplier_name = (row.get("Supplier") or "").strip()
+                qty = float((row.get("Quantity") or "0") or 0)
                 if not parent_sku or not component_sku:
+                    skip_row(csv_file.name, "blank ProductSKU or ComponentSKU_ResourceCode", row_num)
                     continue
-                upsert_item(parent_sku, parent_sku)
-                upsert_item(component_sku, component_sku)
-                parent_id = fetch_item_id_by_sku(parent_sku)
-                component_id = fetch_item_id_by_sku(component_sku)
-                bom_row = db.execute(
-                    "SELECT id FROM boms WHERE parent_item_id = ?", (parent_id,)
-                ).fetchone()
-                if bom_row:
-                    bom_id = bom_row["id"]
-                else:
-                    db.execute(
-                        "INSERT INTO boms (parent_item_id, revision, effective_date) VALUES (?, ?, ?)",
-                        (parent_id, "A", datetime.utcnow().date().isoformat()),
-                    )
-                    bom_id = db.execute("SELECT last_insert_rowid() AS id").fetchone()["id"]
+                supplier_id = ensure_supplier(db, supplier_name)
+                if not supplier_id:
+                    skip_row(csv_file.name, "blank Supplier", row_num)
+                    continue
+
+                upsert_item(parent_sku, row.get("ProductName", "") or parent_sku)
+                upsert_item(component_sku, row.get("ComponentName_ResourceName", "") or component_sku)
+                bom_id = ensure_bom(db, parent_sku, row.get("ProductName", "") or parent_sku)
+                item_id = fetch_item_id_by_sku(component_sku)
                 exists = db.execute(
                     "SELECT id FROM bom_lines WHERE bom_id = ? AND component_item_id = ?",
-                    (bom_id, component_id),
+                    (bom_id, item_id),
                 ).fetchone()
                 if exists:
                     db.execute(
                         "UPDATE bom_lines SET qty_per = ?, uom_code = ? WHERE id = ?",
-                        (qty, row.get("UOM", ""), exists["id"]),
+                        (qty, "lb", exists["id"]),
                     )
                 else:
                     db.execute(
                         "INSERT INTO bom_lines (bom_id, component_item_id, qty_per, uom_code) VALUES (?, ?, ?, ?)",
-                        (bom_id, component_id, qty, row.get("UOM", "")),
+                        (bom_id, item_id, qty, "lb"),
                     )
-                count += 1
-        totals[bom_file.name] = count
 
-    for supplier_key, supplier_name in [
-        ("supplier_items_whc", "WHOLE_HERB"),
-        ("supplier_items_motovotano", "MOTOVOTANO"),
-    ]:
-        csv_file = INPUTS_DIR / CSV_IMPORTS[supplier_key]
-        if not csv_file.exists():
-            continue
-
-        sup = db.execute(
-            "SELECT id FROM suppliers WHERE code = ?",
-            (supplier_name,),
-        ).fetchone()
-        if not sup:
-            db.execute(
-                "INSERT INTO suppliers (code, name) VALUES (?, ?)",
-                (supplier_name, supplier_name.replace("_", " ").title()),
-            )
-            sup = db.execute(
-                "SELECT id FROM suppliers WHERE code = ?",
-                (supplier_name,),
-            ).fetchone()
-
-        count = 0
-        with csv_file.open(newline="", encoding="utf-8-sig") as f:
-            for row in csv.DictReader(f):
-                sku = (row.get("Component SKU") or row.get("SKU") or "").strip()
-                if not sku:
-                    continue
-                upsert_item(sku, row.get("Component Name") or sku)
-                item_id = fetch_item_id_by_sku(sku)
-                moq = float((row.get("MOQ") or "0") or 0)
-                case_size = float((row.get("Case Size") or "0") or 0)
                 db.execute(
                     """
                     INSERT INTO supplier_items (supplier_id, item_id, supplier_sku, moq, case_size, cost)
@@ -331,20 +385,22 @@ def import_csv_data():
                         moq=excluded.moq,
                         case_size=excluded.case_size
                     """,
-                    (sup["id"], item_id, row.get("Supplier SKU", sku), moq, case_size, sup["id"], item_id),
+                    (supplier_id, item_id, component_sku, 0, 0, supplier_id, item_id),
                 )
-                count += 1
-        totals[csv_file.name] = count
+                report[csv_file.name]["imported"] += 1
 
     db.execute("DELETE FROM import_log")
-    for source_name, rows_imported in totals.items():
+    for source_name, source_report in report.items():
+        notes = "Stage 1 CSV import"
+        if source_report["errors"]:
+            notes = "Stage 1 CSV import; " + "; ".join(source_report["errors"][:20])
         db.execute(
             "INSERT INTO import_log (source_name, rows_imported, notes) VALUES (?, ?, ?)",
-            (source_name, rows_imported, "Stage 1 CSV import"),
+            (source_name, source_report["imported"], notes),
         )
 
     db.commit()
-    return totals
+    return report
 
 
 @app.route("/")
@@ -370,9 +426,9 @@ def seed_data():
 @app.route("/import")
 def run_import():
     init_db()
-    totals = import_csv_data()
-    flash(f"CSV import completed for {len(totals)} files.", "success")
-    return render_template("import_result.html", totals=totals)
+    report = import_csv_data()
+    flash(f"CSV import completed for {len(report)} files.", "success")
+    return render_template("import_result.html", report=report)
 
 
 @app.route("/audit")
